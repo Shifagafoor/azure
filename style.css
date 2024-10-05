@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: sans-serif;
+}
+@font-face {
+    font-family: "azure";
+    src: url(font/MWFFluentIcons.woff2);
+}
+@font-face {
+    font-family:"bold";
+    src: url(font/semi_bold.woff2);
+}
+@font-face {
+    font-family: "azure-mw";
+    src: url(font/mwfmdl2-v3.54.woff);
+}
+@font-face {
+    font-family: "azure-N";
+    src: url(font/normal.woff2);
+}
+:root{
+    --border-white: #e6e6e6;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+header{
+    width: 100%;
+    height: 49px;
+}
+.icon{
+    align-items: center;
+    gap: 10px;
+}
+.top{
+    height: 54px;
+    display: flex;
+    padding: 0px 0px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.hamburger{
+    display: flex;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    margin: 1px;
+    padding: 6px 0 8px 0;
+    vertical-align: baseline;
+    line-height: 15px;
+    /* align-items: center; */
+    /* padding-left: 15px; */
+}
+
+.hamburger::before {
+    font-family: "azure-mw";
+    content: "";
+    font-size: 20px;
+    margin-left:  2px;
+    padding: 6px 0px 8px;
+    margin: 6px;
+}
+
+.search::before {
+    font-family: "azure-mw";
+    content: '';
+    font-size: 12px;
+    margin-left:  2px;
+    padding: 8px 8px 8px 0px;
+    margin: 2px 6px 1px 4px;
+}
+.azure-logo{
+    padding: 10px 4px;
+    margin: 1px;
+}
+.azure-logo img{
+    min-width: 108px;
+    height: 23px;
+    margin: -3px 0px 0px;
+}
+.icon{
+    display: flex;
+}
+.azure{
+    display: flex;
+    padding: 0px 15px;
+    margin: 0px 1px;
+    background-color: transparent;
+    color: #000;
+    font-weight: 600;
+    text-align: left;
+    align-items: center;
+}
+.azure span{
+    display: flex;
+    height: 33px;
+    font-weight: 530;
+    font-size: 15px;
+    align-items: center;
+
+}
+.azure img{
+    width: 13px;
+    height: 12px;
+    padding: 0px 0px 0px 7px;
+}
+.top_img{
+    display: flex;
+    height: 179px;
+    object-fit: cover;
+    max-width: inherit;
+}
+.azure_content{
+    background-image: linear-gradient(90deg, rgb(237, 232, 246) 0%, rgb(244, 250, 253) 49.99%, rgb(220, 238, 248) 100%);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 500px;
+}
+.second_content{
+    padding-top: 2rem;
+    padding-inline: 1rem;
+}
+.azure_span{
+    height: 16px;
+    margin: 0px 0px 16px 0px;
+}
+.azure_span span{
+    font-size: .75rem;
+    letter-spacing: 0.96px;
+    color: #17253d;
+    line-height: 16px;
+}
+.downwards_arrow::after {
+    font-family: "azure-mw";
+    content: "";
+    font-size: 16px;
+    margin-left:  2px;
+    padding: 0px 0px 0px 7px;
+}
+.azure_h h1{
+    height: 80px;
+    font-size: 2rem;
+    font-family: "bold";
+    margin-top: 0;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+.azure_p{
+    margin: 16px 0px 0px 0px;
+    padding: 0px 16px 0px 0px;
+}
+.azure_p p{
+    height: 164px;
+    font-size: 18px;
+    box-sizing: border-box;
+    display: contents;
+    font-weight: 300;
+    color: #17253d;
+    letter-spacing: 0.54px;
+    text-align: left;
+    text-size-adjust: 100%;
+    background-color: transparent;
+    line-height: 1.75rem;
+    font-family: azure-N;
+}
+.start{
+    display: flex;
+    padding: 12px;
+    background: #0078d4;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 24px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.start span{
+    display: flex;
+    font-size: .9375rem;
+    line-height: 1.375rem;
+    letter-spacing: -.02em;
+    font-weight: 600;
+    padding: 0px 0px 2px;
+    text-align: center;
+}
