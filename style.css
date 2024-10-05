@@ -50,8 +50,6 @@ header{
     padding: 6px 0 8px 0;
     vertical-align: baseline;
     line-height: 15px;
-    /* align-items: center; */
-    /* padding-left: 15px; */
 }
 
 .hamburger::before {
