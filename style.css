@@ -92,12 +92,10 @@ header{
     align-items: center;
 }
 .azure span{
-    display: flex;
     height: 33px;
     font-weight: 530;
     font-size: 15px;
-    align-items: center;
-
+    text-align: center;
 }
 .azure img{
     width: 13px;
@@ -154,9 +152,9 @@ header{
     font-size: 18px;
     box-sizing: border-box;
     display: contents;
-    font-weight: 300;
+    font-weight: 400;
     color: #17253d;
-    letter-spacing: 0.54px;
+    letter-spacing: -0.54px;
     text-align: left;
     text-size-adjust: 100%;
     background-color: transparent;
@@ -181,4 +179,61 @@ header{
     font-weight: 600;
     padding: 0px 0px 2px;
     text-align: center;
+}
+.feature{
+    display: flex;
+    height: 56px;
+    border-bottom: 4px solid rgb(0, 66, 117);
+}
+.featured{
+    display: flex;
+    padding: 12px;
+    column-gap: 160px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    align-items: center;
+    color: rgb(0, 103, 184);
+    line-height: 20px;
+}
+.featured span{
+    box-sizing: border-box;
+    color: rgb(0, 66, 117);
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    letter-spacing: -0.48px;
+    line-height: 20px;
+    text-align: left;
+}
+.discover{
+    background: url(img/background2.webp);
+    height: 1293px;
+    padding: 56px 16px;
+}
+.discover_span{
+    display: flex;
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.96;
+    line-height: 16px;
+    margin-bottom: 12px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.discover_h{
+    height: 64px;
+    display: block;
+    box-sizing: border-box;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-size: 24px; */
+    /* font-weight: 600; */
+    letter-spacing: -1.2px;
+    /* line-height: 24px; */
+    text-align: left;
+    text-size-adjust: 100%;
+}
+.card{
+    
 }
