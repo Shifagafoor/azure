@@ -53,7 +53,7 @@ header{
 }
 
 .hamburger::before {
-    font-family: "azure-mw";
+    font-family: "azure";
     content: "";
     font-size: 20px;
     margin-left:  2px;
@@ -62,7 +62,7 @@ header{
 }
 
 .search::before {
-    font-family: "azure-mw";
+    font-family: "azure";
     content: '';
     font-size: 12px;
     margin-left:  2px;
@@ -129,7 +129,7 @@ header{
     line-height: 16px;
 }
 .downwards_arrow::after {
-    font-family: "azure-mw";
+    font-family: "azure";
     content: "";
     font-size: 16px;
     margin-left:  2px;
@@ -307,7 +307,7 @@ header{
 }
 .right_arrow::before {
     height: 35px;
-    font-family: "azure-mw";
+    font-family: "azure";
     content: "";
     font-size: 16px;
     padding: 8px;
@@ -394,12 +394,38 @@ button:nth-child(1){
 }
 .ai{
     display: flex;
-    height: 49px;
+    height: 29px;
     align-items: center;
     padding: 0px 0px 24px;
+    font-weight: 600;
+    row-gap: 8px;
+    margin-top: 24px;
+    justify-content: space-between;
 }
 .up_arrow::before {
-    font-family: "azure-mw";
+    font-family: "azure";
     content: "";
     font-size: 16px;
+}
+.portfolio{
+    display: flex;
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+}
+.explore{
+    box-sizing: border-box;
+    color: rgb(0, 66, 117);
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    text-align: left;
 }
