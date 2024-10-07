@@ -206,8 +206,9 @@ header{
 }
 .discover{
     background: url(img/background2.webp);
+    background-repeat: no-repeat;
     height: 1293px;
-    padding: 56px 16px;
+    padding: 56px 16px 0px 16px;
 }
 .discover_span{
     display: flex;
@@ -235,5 +236,141 @@ header{
     text-size-adjust: 100%;
 }
 .card{
-    
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(254, 254, 254);
+    border-radius: 16px;
+    font-size: 16px;
+    height: 380.141px;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    font-weight: 400;
+    flex-grow: 1;
+}
+.card_media{
+    object-fit: cover;
+    padding: 8px 8px 0px 8px;
+}
+.card_media img{
+    aspect-ratio : 2.33333/1;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 113.141px;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    object-fit: cover;
+}
+.card_content{
+    align-items: flex-start;
+    padding: 16px;
+}
+.card_content_span span{
+    box-sizing: border-box;
+    color: rgb(14, 23, 38);
+    display: block;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.54px;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    text-align: left;
+    text-size-adjust: 100%;
+}
+.card_content_p p{
+    height: 96px;
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    display: block;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    text-align-last: 100%;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.card_slim{
+    display: flex;
+    margin-top: 32px;
+    row-gap: 8px;
+    column-gap: 8px;
+}
+.right_arrow::before {
+    height: 35px;
+    font-family: "azure-mw";
+    content: "";
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    align-items: center;
+    background-color: rgb(0, 120, 212);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+.explore_ai span{
+    box-sizing: border-box;
+    color: rgb(0, 66, 117);
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+    line-height: 20px;
+    padding-bottom: 2px;
+    text-align: left;
+}
+.solutions{
+    padding: 56px 16px;
+}
+.find_solution span{
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    display: block;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.96px;
+    line-height: 16px;
+    margin-bottom: 12px;
+}
+.ideas h2{
+    box-sizing: border-box;
+    display: block;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+    line-height: 32px;
+}
+.buttons{
+    margin-top: 24px;
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: start;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    position: relative;
+    text-align: start;
+}
+.buttons button{
+   align-items: flex-start;
+   appearance: button;
+   background-color: rgba(0, 85, 151, 0.1);
+   border-radius: ;
+   border-bottom-style: none;
 }
