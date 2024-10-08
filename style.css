@@ -53,7 +53,7 @@ header{
 }
 
 .hamburger::before {
-    font-family: "azure";
+    font-family: "azure-mw";
     content: "";
     font-size: 20px;
     margin-left:  2px;
@@ -61,9 +61,9 @@ header{
     margin: 6px;
 }
 
-.search::before {
-    font-family: "azure";
-    content: '';
+.search::after {
+    font-family: "azure-mw";
+    content: "";
     font-size: 12px;
     margin-left:  2px;
     padding: 8px 8px 8px 0px;
@@ -313,6 +313,7 @@ header{
     padding: 8px;
     border-radius: 8px;
     align-items: center;
+    color: white;
     background-color: rgb(0, 120, 212);
     border-bottom-color: rgba(0, 0, 0, 0);
     border-bottom-style: solid;
@@ -383,7 +384,6 @@ header{
     color:  rgb(0, 85, 151);
 }
 button span{
-    /* background-color: rgba(0, 85, 151, 0.1); */
     color: rgb(0, 66, 117);
 }
 button:nth-child(1){
@@ -392,14 +392,16 @@ button:nth-child(1){
 .item{
     color: #ffffff;
 }
+.azure_ai{
+    border-bottom: 0.5px solid  #b4b4b4;
+}
 .ai{
     display: flex;
     height: 29px;
     align-items: center;
-    padding: 0px 0px 24px;
+    padding: 24px 0px;
     font-weight: 600;
     row-gap: 8px;
-    margin-top: 24px;
     justify-content: space-between;
 }
 .up_arrow::before {
@@ -428,4 +430,160 @@ button:nth-child(1){
     padding-top: 10px;
     padding-bottom: 2px;
     text-align: left;
+    text-underline-offset: 2px;
+    -webkit-tab-highlight-color:rgba(0, 0, 0, 0);
+    margin-bottom: 24px;
+}
+.build{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 24px;
+    border-bottom: 0.5px solid #b4b4b4;
+}
+.build_img img{
+   aspect-ratio: auto;
+   border-radius: 16px;
+   box-sizing: border-box;
+   color: rgb(23, 37, 61);
+   font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   height: 230.484px;
+   letter-spacing: -0.48px;
+   max-width: 100%;
+   object-fit: fill;
+   overflow-clip-margin: content-box;
+}
+.bellbutton{
+    position: absolute;
+}
+.bellbutton::before {
+    display: flex;
+    font-family: "azure";
+    width: 48px;
+    height: 48px;
+    content: "";
+    align-items: center;
+    color: white;
+    background-color: rgb(0, 120, 212);
+    border-radius: 8px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-image-width: 1;
+    font-size: 15px;
+    font-weight: 600;
+    justify-content: center;
+    letter-spacing: -0.3px;
+    line-height: 22px;
+    list-style-type: none;
+    row-gap: 12px;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    background: url(img/background3.webp);
+    background-repeat: no-repeat;
+    height: 2311px;
+    padding: 56px 16px 56px 16px;
+}
+.kubermetes{
+    margin-top: 32px;
+    background: url(img/card4.avif);
+    height: 412px;
+    padding: 16px;
+    border-radius: 16px;
+}
+.aks{
+    height: 220px;
+}
+
+.service_aks{
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+}
+.service_aks h3{
+    display: flex;
+    box-sizing: border-box;
+    color: rgb(14, 23, 38);
+    display: block;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+    line-height: 32px;
+    text-align: left;
+    gap: 89px;
+}
+.service_aks p{
+    height: 48px;
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    display: block;
+    font-size: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+}
+.explore_product{
+    display: flex;
+    padding: 12px;
+    background: #0078d4;
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.explore_product span{
+    height: 24px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    line-height: 22px;
+    text-align: center;
+}
+.open_service{
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+.studio{
+    padding: 16px;
+}
+.studio_img{
+    display: flex;
+    width: 48px;
+    height: 48px;
+}
+.studio_img img{
+    width: 24px;
+    height: 24px;
+}
+.star_span{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    column-gap: 12px;
+    box-sizing: border-box;
+    color: rgb(23, 37, 61); 
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    row-gap: 12px;
+}
+.star_link{
+    margin-top: 32px;
+    box-sizing: border-box;
+    color: rgb(0, 66, 117);
+    cursor: pointer;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: center;
 }
