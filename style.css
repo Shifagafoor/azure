@@ -482,9 +482,9 @@ button:nth-child(1){
 .products{
     display: flex;
     flex-direction: column;
+    gap: 10px;
     background: url(img/background3.webp);
     background-repeat: no-repeat;
-    height: 2311px;
     padding: 56px 16px 56px 16px;
 }
 .kubermetes{
@@ -558,6 +558,7 @@ button:nth-child(1){
     display: flex;
     width: 48px;
     height: 48px;
+    justify-content: center;
 }
 .studio_img img{
     width: 24px;
@@ -586,4 +587,120 @@ button:nth-child(1){
     font-size: 14px;
     font-weight: 600;
     justify-content: center;
+}
+.gartner{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: url(img/background4.webp);
+    background-repeat: no-repeat;
+    padding: 48px 16px 48px 16px;
+}
+.microsoft{
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+.gartner_img img{
+    width: 100%;
+    height: 196.5px;
+    padding: 8px 12px 0px;
+    aspect-ratio: 1.33333/1;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    object-fit: cover;
+}
+.microsoft_leader{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 16px;
+}
+.gartner_microsoft{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.microsoft_h h3{
+    box-sizing: border-box;
+    color: rgb(14, 23, 38);
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+    line-height: 32px;
+    text-align: left;
+}
+.microsoft_p{
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    font-family: "azure-N";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.54px;
+    line-height: 28px;
+    text-align: left;    
+}
+.transform{
+   box-sizing: border-box;
+   color: rgb(23, 37, 61);
+   display: block;
+    padding: 48px 16px 0px 16px;
+    margin: 0px 0px 24px 0px;
+}
+.transform_you{
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    display: block;
+    font-family: "Bold";
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.96px;
+    line-height: 16px;
+    text-align: center;
+    margin: 0px 0px 12px 0px;
+}
+.transform_the_way {
+    box-sizing: border-box;
+    color: rgb(14, 23, 38);
+    display: block;
+    font-weight: 600;
+    letter-spacing: -1.4px;
+    line-height: 36px;
+    text-align: center;
+    unicode-bidi: isolate;
+}
+.transform_the_way h2{
+    font-size: 28px;
+    font-family: "Bold";
+}
+.it_professional{
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    border-bottom-style: none;
+    padding: 0px 16px;
+   
+}
+.developers{
+    align-items: flex-start;
+    padding: 12px 16px 16px 16px;
+    margin: 0px 8px 0px 0px;
+    appearance: button;
+    background-color: rgba(0, 85, 151, 0.1);
+    border-radius: 25px;
+    border-bottom-style: none;
+    min-width: max-content;
+}
+.developers a{
+    height: 24px;
+    text-decoration: none;
+    color: #000;
 }
