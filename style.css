@@ -652,6 +652,8 @@ button:nth-child(1){
    display: block;
     padding: 48px 16px 0px 16px;
     margin: 0px 0px 24px 0px;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-interactive-demo-resources-by-role-bg-360x719?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1438&qlt=100&fmt=png-alpha&fit=constrain");   
+
 }
 .transform_you{
     box-sizing: border-box;
@@ -681,26 +683,74 @@ button:nth-child(1){
 }
 .it_professional{
     height: 52px;
-    display: flex;
+    /* display: flex; */
+    padding: 8px 0px 8px 8px;
     flex-direction: column;
     align-items: flex-start;
     align-items: center;
     border-bottom-style: none;
-    padding: 0px 16px;
-   
+    /* background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-interactive-demo-resources-by-role-bg-360x719?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1438&qlt=100&fmt=png-alpha&fit=constrain");    */
 }
 .developers{
+    display: flex;
+    gap: 20px;
     align-items: flex-start;
-    padding: 12px 16px 16px 16px;
-    margin: 0px 8px 0px 0px;
+    box-sizing: border-box;
     appearance: button;
-    background-color: rgba(0, 85, 151, 0.1);
-    border-radius: 25px;
+    background-color: #fefefe;
     border-bottom-style: none;
-    min-width: max-content;
+    scrollbar-width: none;
+    overflow: scroll;
 }
 .developers a{
+    min-width: 188px;
     height: 24px;
+    box-shadow: inset 1px 2px 0.125rem rgba(0, 0, 0, 0.12), 0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
     text-decoration: none;
+    border-radius: 2px;
     color: #000;
+    font-family: "Bold";
+    min-width: max-content;
+    padding: 12px 16px 16px 16px;
+    padding-right: 20px;
+}
+.tab{
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+    color: rgb(0, 66, 117);
+    font-size: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    margin-top: 24px;
+    padding-bottom: 40px;
+}
+.tab {
+    margin-top: 24px;
+    padding-bottom: 40px;
+    display: flex;
+    color: #02243E;
+}
+.button_right::after {
+    content: "";
+    font-family: "Azure";
+    border: 2px solid #02243E;
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    margin-right: 8px;
+    font-weight: 600;
+    opacity: .6;
+}
+.button_left::after {
+    content: "";
+    font-family: Azure;
+    border: 2px solid #02243E;
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    font-weight: 600;
 }
