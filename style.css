@@ -689,7 +689,9 @@ button:nth-child(1){
     align-items: flex-start;
     align-items: center;
     border-bottom-style: none;
-    /* background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-interactive-demo-resources-by-role-bg-360x719?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1438&qlt=100&fmt=png-alpha&fit=constrain");    */
+}
+.it_professional:nth-child(1){
+    border-bottom: 2px solid #0078d4;
 }
 .developers{
     display: flex;
@@ -701,6 +703,7 @@ button:nth-child(1){
     border-bottom-style: none;
     scrollbar-width: none;
     overflow: scroll;
+    background: url(img/background5.webp);
 }
 .developers a{
     min-width: 188px;
@@ -713,6 +716,7 @@ button:nth-child(1){
     min-width: max-content;
     padding: 12px 16px 16px 16px;
     padding-right: 20px;
+    
 }
 .tab{
     display: flex;
@@ -726,12 +730,12 @@ button:nth-child(1){
     margin-top: 24px;
     padding-bottom: 40px;
 }
-.tab {
+/* .tab {
     margin-top: 24px;
     padding-bottom: 40px;
     display: flex;
     color: #02243E;
-}
+} */
 .button_right::after {
     content: "";
     font-family: "Azure";
@@ -753,4 +757,71 @@ button:nth-child(1){
     width: 40px;
     padding: 10px;
     font-weight: 600;
+}
+.azure_solution{
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    font-family: "Bold";
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
+    letter-spacing: -0.48px;
+    padding: 24px 0px 48px 0px;
+    line-height: 24px;
+}
+.azure_service{
+    display: flex;
+    align-items: center;
+    animation-delay: 0s, 0s;
+    animation-direction: normal,normal;
+    animation-duration: 1.2s, 1.2s;
+    animation-fill-mode: none, none;
+    animation-iteration-count: 1, 1;
+    animation-name: fade-in, slide-up;
+    animation-play-state: running, running;
+    column-gap: 12px;
+    flex-direction: column;
+    font-size: 16px;
+    text-align: center;
+}
+.azure_service_h h4 {
+    box-sizing: border-box;
+    color: rgb(14, 23, 38);
+    display: block;
+    font-family: "Bold";
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 28px;
+    text-align: center;
+    text-size-adjust: 100%;
+}
+.azure_slim{
+    display: flex;
+   gap: 20px;
+}
+.arrow::before {
+    height: 35px;
+    font-family: "azure";
+    content: "";
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    align-items: center;
+    color: white;
+    background-color: rgb(0, 120, 212);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+.azure_service_ai span{
+    box-sizing: border-box;
+    color: rgb(0, 66, 117);
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+    line-height: 20px;
+    padding-bottom: 2px;
+    text-align: left;
 }
