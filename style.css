@@ -490,6 +490,7 @@ button:nth-child(1){
 .kubermetes{
     margin-top: 32px;
     background: url(img/card4.avif);
+    background-repeat: no-repeat;
     height: 412px;
     padding: 16px;
     border-radius: 16px;
@@ -650,10 +651,12 @@ button:nth-child(1){
    box-sizing: border-box;
    color: rgb(23, 37, 61);
    display: block;
+    /* padding: 48px 16px 0px 16px; */
+    /* background: url(img/background5.webp);
+    background-size: cover; */
+}
+.transform_way{
     padding: 48px 16px 0px 16px;
-    margin: 0px 0px 24px 0px;
-    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-mobile-interactive-demo-resources-by-role-bg-360x719?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1438&qlt=100&fmt=png-alpha&fit=constrain");   
-
 }
 .transform_you{
     box-sizing: border-box;
@@ -683,15 +686,12 @@ button:nth-child(1){
 }
 .it_professional{
     height: 52px;
-    /* display: flex; */
     padding: 8px 0px 8px 8px;
     flex-direction: column;
     align-items: flex-start;
     align-items: center;
     border-bottom-style: none;
-}
-.it_professional:nth-child(1){
-    border-bottom: 2px solid #0078d4;
+   
 }
 .developers{
     display: flex;
@@ -703,7 +703,7 @@ button:nth-child(1){
     border-bottom-style: none;
     scrollbar-width: none;
     overflow: scroll;
-    background: url(img/background5.webp);
+   
 }
 .developers a{
     min-width: 188px;
@@ -730,12 +730,6 @@ button:nth-child(1){
     margin-top: 24px;
     padding-bottom: 40px;
 }
-/* .tab {
-    margin-top: 24px;
-    padding-bottom: 40px;
-    display: flex;
-    color: #02243E;
-} */
 .button_right::after {
     content: "";
     font-family: "Azure";
@@ -772,14 +766,6 @@ button:nth-child(1){
 .azure_service{
     display: flex;
     align-items: center;
-    animation-delay: 0s, 0s;
-    animation-direction: normal,normal;
-    animation-duration: 1.2s, 1.2s;
-    animation-fill-mode: none, none;
-    animation-iteration-count: 1, 1;
-    animation-name: fade-in, slide-up;
-    animation-play-state: running, running;
-    column-gap: 12px;
     flex-direction: column;
     font-size: 16px;
     text-align: center;
@@ -796,9 +782,17 @@ button:nth-child(1){
     text-align: center;
     text-size-adjust: 100%;
 }
+.whole{
+    background: url(img/background5.webp);
+    background-size: cover;
+    padding-inline: 16px;
+}
 .azure_slim{
     display: flex;
-   gap: 20px;
+    row-gap: 8px;
+    column-gap: 8px;
+    justify-content: center;
+    margin-top: 12px;
 }
 .arrow::before {
     height: 35px;
@@ -824,4 +818,120 @@ button:nth-child(1){
     line-height: 20px;
     padding-bottom: 2px;
     text-align: left;
+}
+.migration_img{
+    backdrop-filter: blur(20px);
+    background-clip: border-box;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 16px;
+    margin-top: 24px;
+    border: 1px; 
+    border-radius: 16px;   
+}
+.migration_img img{
+    height: 131px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+    object-fit: fill;
+}
+.glob{
+    background: url(img/card8.avif);
+    background-size: cover;
+    box-sizing: border-box;
+    color: rgb(220, 238, 248);
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+    background-position: center;
+    padding: 56px 0px 80px 0px;
+}
+.global{
+    padding: 0px 16px 0px 16px;
+}
+.azure_infrastructure{
+    box-sizing: border-box;
+    color: rgb(244, 250, 253);
+    display: block;
+    font-weight: 500;
+    font-family: "azue-N";
+    letter-spacing: -1.6px;
+    line-height: 40px;
+    text-align: center;
+}
+.azure_infrastructure_p p{
+    box-sizing: border-box;
+    color: rgb(220, 238, 248);
+    text-align: center;
+    display: block;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.54px;
+    line-height: 28px;
+    margin-top: 16px;
+    padding-inline: 16px;
+}
+.azure_infrastructure_globe{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    background: rgb(179, 218, 240);
+    font-size: 15px;
+    color: rgb(14, 23, 38);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.customer{
+    background: url(img/background6.webp);
+    background-size: cover;
+    padding: 48px 16px;
+}
+.customer_stories_span{
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    display: block;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.96px;
+    line-height: 16px;
+    margin-bottom: 12px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.customer_stories_h{
+    box-sizing: border-box;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: block;
+    letter-spacing: -1.2px;
+    line-height: 32px;
+    text-align: left;
+    text-size-adjust: 100%;
+}
+.hp_workflow{
+   box-sizing: border-box;
+   color: rgb(23, 37, 61);
+   display: flex;
+   flex-wrap: wrap;
+   font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   letter-spacing: -0.48px;
+   line-height: 24px;
+   margin-top: 24px;
+   text-align: left;
+}
+.hp_workflow img{
+    height: 219px;
+    border-radius: 8px;
+    color: rgb(23, 37, 61);
+    box-sizing: border-box;
 }
