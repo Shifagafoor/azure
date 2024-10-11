@@ -1,0 +1,38 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_74_49043)">
+<g clip-path="url(#clip1_74_49043)">
+<g clip-path="url(#clip2_74_49043)">
+<g clip-path="url(#clip3_74_49043)">
+<path d="M15.3334 7.44795C15.2682 5.83478 14.0623 4.49322 12.4734 4.27923C12.3919 1.9747 10.4771 0.172232 8.19564 0.238076C6.38675 0.205154 4.74897 1.33273 4.12156 3.04466C2.19045 3.28334 0.723785 4.90474 0.666748 6.86359C0.74823 9.08581 2.59786 10.8224 4.79786 10.7401H5.15638H11.846C11.903 10.7484 11.9682 10.7484 12.0253 10.7401C13.826 10.7319 15.2927 9.26688 15.3334 7.44795Z" fill="url(#paint0_linear_74_49043)"/>
+<path d="M8.29351 7.12695H7.65796V12.2216H8.29351V7.12695Z" fill="#B3B3B3"/>
+<path d="M7.97582 7.29936C8.91184 7.29936 9.67064 6.5329 9.67064 5.58742C9.67064 4.64195 8.91184 3.87549 7.97582 3.87549C7.0398 3.87549 6.28101 4.64195 6.28101 5.58742C6.28101 6.5329 7.0398 7.29936 7.97582 7.29936Z" fill="#F2F2F2"/>
+<path d="M7.03036 11.7935H8.92073C9.24666 11.7935 9.51555 12.0651 9.51555 12.3943V14.3037C9.51555 14.633 9.24666 14.9046 8.92073 14.9046H7.03036C6.70444 14.9046 6.43555 14.633 6.43555 14.3037V12.3943C6.43555 12.0651 6.70444 11.7935 7.03036 11.7935Z" fill="url(#paint1_linear_74_49043)"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_74_49043" x1="8.00008" y1="10.7484" x2="8.00008" y2="0.238076" gradientUnits="userSpaceOnUse">
+<stop stop-color="#198AB3"/>
+<stop offset="0.44" stop-color="#28B7DB"/>
+<stop offset="0.78" stop-color="#32D4F5"/>
+</linearGradient>
+<linearGradient id="paint1_linear_74_49043" x1="7.97555" y1="14.8283" x2="7.97555" y2="12.5651" gradientUnits="userSpaceOnUse">
+<stop stop-color="#198AB3"/>
+<stop offset="0.44" stop-color="#28B7DB"/>
+<stop offset="0.78" stop-color="#32D4F5"/>
+</linearGradient>
+<clipPath id="clip0_74_49043">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+<clipPath id="clip1_74_49043">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+<clipPath id="clip2_74_49043">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+<clipPath id="clip3_74_49043">
+<rect width="14.6667" height="14.6667" fill="white" transform="translate(0.666748 0.237793)"/>
+</clipPath>
+</defs>
+</svg>

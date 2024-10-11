@@ -916,6 +916,10 @@ button:nth-child(1){
     text-align: left;
     text-size-adjust: 100%;
 }
+.hp_github{
+    background-color: #ffffff;
+    border-radius: 16px;
+}
 .hp_workflow{
    box-sizing: border-box;
    color: rgb(23, 37, 61);
@@ -931,7 +935,101 @@ button:nth-child(1){
 }
 .hp_workflow img{
     height: 219px;
+    width: 100%;
+    height: 196.5px;
+    padding: 8px 12px 0px;
+    aspect-ratio: 1.33333/1;
     border-radius: 8px;
-    color: rgb(23, 37, 61);
     box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    object-fit: cover;
+}
+.hp_incorporated{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 16px;
+}
+.logo_hp img{
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 76px;
+    letter-spacing: -0.48px;
+    position: relative;
+    text-align: left;
+    text-wrap: wrap;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: inset 1px 2px 0.125rem rgba(0, 0, 0, 0.12), 0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
+}
+.hp_work h4{
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    display: block;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 28px;
+    overflow-wrap: break-word;
+    text-align: left;
+    text-wrap: wrap;
+    white-space: collapse;
+}
+.azure_products{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.logo_double{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.logos_double{
+    display: flex;
+    gap: 5px;
+}
+.product_list h6{
+    box-sizing: border-box;
+    color: rgb(14, 23, 38);
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    text-align: left;
+}
+.logo_one u{
+    box-sizing: border-box;
+    color: rgb(0, 103, 184);
+    cursor: pointer;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+    line-height: 20px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: left;
+    text-decoration-color: rgb(0, 103, 184);
+}
+.whole_hp{
+    display: flex;
+    overflow: auto;
+}
+.hp{
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
