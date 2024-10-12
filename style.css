@@ -1027,9 +1027,138 @@ button:nth-child(1){
 .whole_hp{
     display: flex;
     overflow: auto;
+    scrollbar-width: none;
 }
 .hp{
     flex-basis: 100%;
     flex-grow: 0;
     flex-shrink: 0;
+}
+.arrows{
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+    color: rgb(0, 66, 117);
+    font-size: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    margin-top: 24px;
+}
+.arrow_right::after {
+    content: "";
+    font-family: "Azure";
+    border: 2px solid #02243E;
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    margin-right: 8px;
+    font-weight: 600;
+    opacity: .6;
+}
+.arrow_left::after {
+    content: "";
+    font-family: Azure;
+    border: 2px solid #02243E;
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    font-weight: 600;
+}
+.take_step{
+    background: url(img/background7.webp);
+}
+.steps{
+    padding: 56px 16px;
+}
+.azure_steps_h h2{
+    box-sizing: border-box;
+    color: rgb(244, 250, 253);
+    display: block;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -1.4px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.card_azure{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(254, 254, 254);
+    border-radius: 16px;
+    font-size: 16px;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    font-weight: 400;
+    flex-grow: 1;
+}
+.card_content_azure{
+    align-items: flex-start;
+    padding: 16px;
+}
+.card_content_span_azure span{
+    box-sizing: border-box;
+    color: rgb(14, 23, 38);
+    display: block;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.54px;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    text-align: left;
+    text-size-adjust: 100%;
+}
+.card_content_p p{
+    height: 96px;
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    display: block;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    text-align-last: 100%;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.card_slim{
+    display: flex;
+    margin-top: 32px;
+    row-gap: 8px;
+    column-gap: 8px;
+}
+.right_arrow::before {
+    height: 35px;
+    font-family: "azure";
+    content: "";
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    align-items: center;
+    color: white;
+    background-color: rgb(0, 120, 212);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+.explore_ai span{
+    box-sizing: border-box;
+    color: rgb(0, 66, 117);
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+    line-height: 20px;
+    padding-bottom: 2px;
+    text-align: left;
 }
