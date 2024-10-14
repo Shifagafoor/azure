@@ -1162,3 +1162,112 @@ button:nth-child(1){
     padding-bottom: 2px;
     text-align: left;
 }
+.mobile_azure{
+    padding: 24px 16px;
+}
+.get_mobile{
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    border-radius: 3.2px;
+    display: inline-flex;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    flex-direction: row;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    justify-content: center;
+    letter-spacing: -0.3px;
+    line-height: 22px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding: 12px;
+    position: relative;
+    text-align: left;
+}
+.get_mobile img{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+.footer{
+    background-color: rgb(242, 242, 242);
+    margin-top: 48px;
+}
+.footer_azure{
+    padding-inline: 12px;
+}
+.explore_azure{
+    padding: 12px;
+}
+.explore_azure_h h4{
+    box-sizing: border-box;
+    color: rgb(97, 97, 97);
+    display: block;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 20px;
+    padding-top: 36px;
+    padding-bottom: 4px;
+}
+.azure_li li{
+    box-sizing: border-box;
+    color: rgb(97, 97, 97);
+    cursor: pointer;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    list-style-type: none;
+    text-decoration-color: rgb(97, 97, 97);
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.last_footer{
+    background-color:  rgb(242, 242, 242);
+    padding: 30px 24px 16px 24px;
+}
+.footer_list_span{
+    display: flex;
+    align-items: center;
+}
+.footer_list_span::before {
+    font-family: "azure";
+    content: "";
+    box-sizing: border-box;
+    color: rgb(97, 97, 97);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.footer_list_span a{
+    box-sizing: border-box;
+    color: rgb(97, 97, 97);
+    cursor: pointer;
+    display: block;
+    float: none;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 16px;
+    padding-right: 24px;
+    text-align: left;
+    text-decoration-color: rgb(97, 97, 97);
+    text-wrap: wrap;
+    text-decoration: none;
+}
+.right_wrong{
+    box-sizing: border-box;
+    clip-rule: evenodd;
+    color: rgb(97, 97, 97);
+    cursor: pointer;
+    
+}
