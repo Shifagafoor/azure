@@ -33,8 +33,8 @@ header{
 }
 .top{
     height: 54px;
+    margin-bottom: 2px;
     display: flex;
-    padding: 0px 0px;
     border-bottom: 1px solid #e6e6e6;
 }
 .hamburger{
@@ -205,11 +205,12 @@ header{
 .start_button{
     display: flex;
     padding: 12px;
+    border-width: 2px;
     background: rgb(0,41, 72);
-    border: 1px solid  rgb(179, 218, 240);
+    border: 2px solid  rgb(179, 218, 240);
     font-size: 15px;
     color: rgb(244, 250, 253);
-    line-height: 24px;
+    margin-top: 24px;
     border-radius: 10px;
     justify-content: center;
 }
@@ -562,7 +563,7 @@ button:nth-child(1){
     box-sizing: border-box;
     color: rgb(23, 37, 61);
     display: block;
-    font-size: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: -0.48px;
@@ -1445,4 +1446,23 @@ button:nth-child(1){
     display: grid;
     grid-template-columns: repeat(3, 1fr);
    }
+}
+@media screen and (min-width:860px) {
+    .azure{
+        display: none;
+    }
+    /* .hamburger{
+        display: none;
+    }
+    .azure-logo{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    } */
+     .icon{
+        display: none;
+     }
+     .hamburger{
+        display: none;
+     }
 }
