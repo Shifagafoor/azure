@@ -1451,18 +1451,13 @@ button:nth-child(1){
     .azure{
         display: none;
     }
-    /* .hamburger{
+    .mobile{
         display: none;
     }
-    .azure-logo{
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-    } */
-     .icon{
-        display: none;
-     }
-     .hamburger{
-        display: none;
-     }
+    
 }
+<div class="tab_logo">
+<div class="tab_azure_logo">
+    <img src="img/azurelogo1.png">
+</div>
+</div>
