@@ -126,7 +126,6 @@ header{
     background-repeat: no-repeat;
     object-fit: cover;
     padding-bottom: 56px;
-    /* height: 500px; */
 }
 .second_content{
     padding-top: 2rem;
@@ -693,9 +692,6 @@ button:nth-child(1){
    box-sizing: border-box;
    color: rgb(23, 37, 61);
    display: block;
-    /* padding: 48px 16px 0px 16px; */
-    /* background: url(img/background5.webp);
-    background-size: cover; */
 }
 .transform_way{
     padding: 48px 16px 0px 16px;
@@ -1574,4 +1570,10 @@ button:nth-child(1){
     .azure_p{
         margin-top: 28px;
     }
+   .top_img img{
+        object-fit: cover;
+   }
+   .start_button{
+    background: transparent;
+   }
 }
