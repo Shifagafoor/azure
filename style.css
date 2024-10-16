@@ -423,12 +423,13 @@ header{
     min-width: max-content;
     color:  rgb(0, 85, 151);
 }
-button span{
+.button span{
     color: rgb(0, 66, 117);
 }
 button:nth-child(1){
     background-color: rgb(0, 85, 151);
 }
+
 .item{
     color: #ffffff;
 }
@@ -1348,7 +1349,6 @@ button:nth-child(1){
     color: rgb(97, 97, 97);
     cursor: pointer;
     display: flex;
-    float: left;
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 11px;
     font-weight: 400;
@@ -1364,7 +1364,6 @@ button:nth-child(1){
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    float: left;
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 11px;
     font-weight: 400;
@@ -1377,7 +1376,6 @@ button:nth-child(1){
     box-sizing: border-box;
     color: rgb(97, 97, 97);
     display: block;
-    float: left;
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 11px;
     font-weight: 400;
@@ -1392,7 +1390,9 @@ button:nth-child(1){
 .footer_list_iteams li{
     list-style-type: none;
 }
-
+.tab_head{
+    display: none;
+}
 
 @media screen and (min-width:540px) {
     .second_content{
@@ -1451,13 +1451,127 @@ button:nth-child(1){
     .azure{
         display: none;
     }
-    .mobile{
+    .mobile_head{
         display: none;
     }
-    
+    .tab_head{
+        display: flex;
+        padding-inline: 24px;
+        height: 54px;
+        gap: 20px;
+    }
+    .tab_logo{
+        display: flex;
+        align-items: center;
+        padding: 16px 6px 16px 10px;
+        margin-bottom: 2px;
+    }
+    .tab_azure_logo img{
+        height: 23px;
+        width: 108px;
+        margin-top: -3px;
+        max-width: none;
+    }
+    .tab_line::after {
+        font-family: "azure-mw";
+        content: " ";
+        border-left-style: solid;
+        border-left-width: 2px;
+        box-sizing: border-box;
+        color: #000;
+        padding: 16px 6px 16px 10px;
+       
+    }    
+    .tab_azure{
+        display: flex;
+    }
+    .tab_line{
+        display: flex;
+        flex-direction: row-reverse;
+       align-items: center;
+
+    }
+    .tab_list{
+        display: flex;
+        align-items: center;
+    }
+    .tab_ul{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .tab_ul li{
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        gap:20px;
+    }
+    .tab_azure_line{
+        display: flex;
+        padding: 16px 6px 16px 10px;
+        align-items: center;
+        box-sizing: border-box;
+        color: rgb(38, 38, 38);
+        cursor: pointer;
+        display: flex;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: normal;
+        margin-top: -3px;
+        font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .tab_ul span{
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+        appearance: button;
+        color: rgb(38, 38, 38);
+        font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        margin-right: -10px;
+        margin-top: 1px;
+        outline-offset: -2px;
+     }
+    .tab_down::after{
+        display: flex;
+        font-family: "azure-mw";
+        content: "";
+        font-size: 10px;
+        align-items: center;
+    }
+    .search_fonts::after{
+        font-family: "azure-mw";
+        content: "";
+        font-size: 16px;
+        align-items: flex-start;
+        appearance: button;
+        box-sizing: border-box;
+        padding: 20px 9px 30px 9px;
+        margin: 0px 6px 1px 6px;
+    }
+    .top_img{
+       position: relative;
+    }
+    .second_content{
+        position: absolute;
+        top: 130px;
+        background: transparent;
+        width: 338px;
+    }
+    .azure_span span{
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+    .azure_h h1{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .azure_p p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .azure_p{
+        margin-top: 28px;
+    }
 }
-<div class="tab_logo">
-<div class="tab_azure_logo">
-    <img src="img/azurelogo1.png">
-</div>
-</div>
