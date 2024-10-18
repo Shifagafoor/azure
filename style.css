@@ -1794,4 +1794,20 @@ button:nth-child(1){
     .migration_img{
         margin: 32px 124.672px 0px 124.672px;
     }
+    .glob{
+        padding: 96px 0px 96px 0px;
+    }
+    .global{
+        padding: 0px 64px;
+    }
+    .azure_infrastructure_p p{
+        padding: 0px 48px;
+        margin-top: 24px;
+    }
+    .azure_infrastructure_globe{
+        display: flex;
+        width: 150px;
+        justify-content: center;
+        text-align: center;
+    }
 }
