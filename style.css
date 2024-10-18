@@ -969,10 +969,10 @@ button:nth-child(1){
     text-align: left;
     text-size-adjust: 100%;
 }
-.hp_github{
+/* .hp_github{
     background-color: #ffffff;
     border-radius: 16px;
-}
+} */
 .hp_workflow{
    box-sizing: border-box;
    color: rgb(23, 37, 61);
@@ -1080,6 +1080,8 @@ button:nth-child(1){
     scrollbar-width: none;
 }
 .hp{
+    background-color: #ffffff;
+    border-radius: 16px;
     flex-basis: 100%;
     flex-grow: 0;
     flex-shrink: 0;
