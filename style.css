@@ -1711,6 +1711,15 @@ button:nth-child(1){
     .features{
         display: flex;
     }
+    .solution{
+        display: flex;
+        flex-grow: 1;
+        letter-spacing: -0.48px;
+        box-sizing: border-box;
+        overflow: scroll;
+        justify-content: space-between;
+        line-height: 24px;
+    }
     .chatgpt{
         display: flex;
     }
@@ -1745,7 +1754,7 @@ button:nth-child(1){
         align-items: center;
     }
     .featured{
-        margin: 16px 48px 0px 0px;
+        margin: 0px 48px 0px 0px;
     }
     .button_left_arrow::after {
         content: "";
@@ -1847,5 +1856,13 @@ button:nth-child(1){
     .card_azure{
         display: flex;
         flex: 0 0 calc(calc(100% - calc(1rem * (3 - 1))) / 3);
+    }
+    .studio{
+        display: flex;
+        flex-direction: column;
+    }
+    .star_span{
+        display: flex;
+        flex: 1 1 auto;
     }
 }
