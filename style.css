@@ -243,6 +243,7 @@ header{
     display: block;
     letter-spacing: -0.48px;
     line-height: 20px;
+    min-width: max-content;
     text-align: left;
 }
 .discover{
@@ -1717,8 +1718,13 @@ button:nth-child(1){
         letter-spacing: -0.48px;
         box-sizing: border-box;
         overflow: scroll;
+        scrollbar-width: none;
+        scrollbar-color: rgb(0, 66, 117);
         justify-content: space-between;
         line-height: 24px;
+    }
+    .featured:nth-child(1){
+        border-bottom: 3px solid rgb(0, 66, 117);
     }
     .chatgpt{
         display: flex;
@@ -1756,10 +1762,10 @@ button:nth-child(1){
     .featured{
         margin: 0px 48px 0px 0px;
     }
-    .button_left_arrow::after {
-        content: "";
+    .button_left_arrows::after {
+        content: "";
         font-family: Azure;
-        border: 2px solid #02243E;
+        border: 2px solid ;
         border-radius: 30px;
         height: 40px;
         width: 40px;
