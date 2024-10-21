@@ -418,7 +418,15 @@ header{
     overflow: auto;
     scrollbar-width: none;
 }
+.feature_solution{
+    display: flex;
+}
+.tab_group{
+    display: flex;
+    align-items: center;
+}
 .buttons button{
+    display: flex;
     height: 40px;
     align-items: flex-start;
     padding: 8px 16px;
