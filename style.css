@@ -377,6 +377,8 @@ header{
 }
 .solutions{
     padding: 56px 16px;
+    background: rgb(244, 250, 253);
+
 }
 .find_solution span{
     box-sizing: border-box;
@@ -420,6 +422,7 @@ header{
     height: 40px;
     align-items: flex-start;
     padding: 8px 16px;
+    font-size: .9375rem;
     margin: 0px 8px 0px 0px;
     appearance: button;
     background-color: rgba(0, 85, 151, 0.1);
@@ -1793,6 +1796,10 @@ button:nth-child(1){
         border-radius: 10px;
         justify-content: center;
         margin: 0px 0px 0px 32px;
+    }
+    .start_azure span{
+        width: 108px;
+        text-align: center;
     }
     .kumbermetes{
         display: grid;
