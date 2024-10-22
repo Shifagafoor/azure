@@ -1131,6 +1131,7 @@ button:nth-child(1) {
 .hp_incorporated {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 20px;
     padding: 16px;
 }
@@ -1167,8 +1168,10 @@ button:nth-child(1) {
 }
 
 .azure_products {
+    height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     gap: 10px;
 }
 
@@ -1215,10 +1218,12 @@ button:nth-child(1) {
     display: flex;
     overflow: auto;
     scrollbar-width: none;
+    background-color: #ffffff;
 }
 
 .hp {
-    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
     border-radius: 16px;
     flex-basis: 100%;
     flex-grow: 0;
@@ -1227,7 +1232,6 @@ button:nth-child(1) {
 
 .arrows {
     display: flex;
-    gap: 20px;
     box-sizing: border-box;
     color: rgb(0, 66, 117);
     font-size: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1235,6 +1239,7 @@ button:nth-child(1) {
     letter-spacing: -0.48px;
     line-height: 24px;
     margin-top: 24px;
+    padding-inline: 16px;
 }
 
 .arrow_right::after {
@@ -1332,11 +1337,12 @@ button:nth-child(1) {
     gap: 0.75rem;
 }
 
-.card_slim {
+.card_slims {
     display: flex;
     margin-top: 32px;
     row-gap: 8px;
     column-gap: 8px;
+    padding-inline: 16px;
 }
 
 .right_arrow::before {
@@ -1580,7 +1586,9 @@ button:nth-child(1) {
 .features {
     display: none;
 }
-
+.fixedBlock{
+    display: none;
+}
 
 @media screen and (min-width:540px) {
     .second_content {
@@ -2098,31 +2106,33 @@ button:nth-child(1) {
 
     .azure_infrastructure_globe {
         display: flex;
-        width: 150px;
+        /* width: 150px; */
         justify-content: center;
         text-align: center;
     }
 
-    .hp_github {
+    .hp{
         display: flex;
         flex-direction: row-reverse;
     }
-
-    .hp_workflow img {
-        border-radius: 16px;
-        padding: 8px 8px 8px 0px;
+    .whole_hp{
+        display: flex;
+        border-radius: 24px;
+        margin-top: 32px;
     }
-
-    .hp_incorporated {
-        flex-basis: 80%;
+    .hp_incorporated{
+        display: flex;
+        flex-basis: 78%;
         padding: 24px;
     }
-
     .explore_product {
         padding: 12px 16px;
         width: 106px;
     }
-
+    .hp_workflow img{
+        border-radius: 16px;
+        padding: 8px 8px 8px 0px;
+    }
     .card_content_azure {
         display: flex;
         flex-direction: column;
@@ -2215,4 +2225,46 @@ button:nth-child(1) {
         align-items: center;
         justify-content: center;
     }
+    .arrows{
+        display: none;
+    }
+    .storieBlock-imgList{
+        margin-top:32px;
+    }
+    .storieBlock-imgList{
+        margin-top:32px;
+    }
+    .stories{
+        display: flex;
+    }
+    .storie_block img{
+        max-width: 84px;
+    }
+    .storie{
+        padding-inline: 56px;
+        margin-top: 32px;
+    }
+    .stories{
+    box-shadow:0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    }
+    .storie_block:first-child{
+    border-top-left-radius: 16px;
+    border-bottom-left-radius:16px;
+    border-bottom:4px solid #004275;
+    }
+    .storie_block:nth-child(5){
+    border-top-right-radius:16px;
+    border-bottom-right-radius:16px;
+    border-right:none;
+    }
+    .storie_block{
+    border-right: 1px solid grey;
+    padding: 32px;
+
+    }
+    .card_slims{
+        padding-inline: 56px;
+    }
+
 }
