@@ -4,40 +4,49 @@
     border: none;
     font-family: sans-serif;
 }
+
 @font-face {
     font-family: "azure";
     src: url(font/MWFFluentIcons.woff2);
 }
+
 @font-face {
-    font-family:"bold";
+    font-family: "bold";
     src: url(font/semi_bold.woff2);
 }
+
 @font-face {
     font-family: "azure-mw";
     src: url(font/mwfmdl2-v3.54.woff);
 }
+
 @font-face {
     font-family: "azure-N";
     src: url(font/normal.woff2);
 }
-:root{
+
+:root {
     --border-white: #e6e6e6;
 }
-button{
+
+button {
     background-color: transparent;
     border: none;
 }
-header{
+
+header {
     /* width: 100%; */
     height: 49px;
 }
-.top{
+
+.top {
     height: 54px;
     margin-bottom: 2px;
     display: flex;
     border-bottom: 1px solid #e6e6e6;
 }
-.hamburger{
+
+.hamburger {
     display: flex;
     justify-content: center;
     width: 48px;
@@ -54,7 +63,7 @@ header{
     font-family: "azure-mw";
     content: "";
     font-size: 20px;
-    margin-left:  2px;
+    margin-left: 2px;
     padding: 6px 0px 8px;
     margin: 6px;
 }
@@ -69,16 +78,19 @@ header{
     padding: 9px 8px 9px 0px;
     margin: 2px 6px 1px 9px;
 }
-.azure-logo{
+
+.azure-logo {
     padding: 13px 4px;
     margin: 1px;
 }
-.azure-logo img{
+
+.azure-logo img {
     min-width: 108px;
     height: 23px;
     margin: -3px 0px 0px;
 }
-.icon{
+
+.icon {
     display: flex;
     flex-grow: 1;
     flex-shrink: 0;
@@ -92,7 +104,8 @@ header{
     position: relative;
     justify-content: center;
 }
-.azure{
+
+.azure {
     display: flex;
     padding: 0px 15px;
     margin: 0px 1px;
@@ -103,52 +116,62 @@ header{
     align-items: center;
     height: 34px;
 }
-.azure span{
+
+.azure span {
     font-weight: 548;
     font-size: 15px;
     text-align: center;
 }
-.azure img{
+
+.azure img {
     width: 13px;
     height: 12px;
     padding: 0px 0px 0px 7px;
 }
-.top_img{
-    display: flex;  
+
+.top_img {
+    display: flex;
     object-fit: cover;
     max-width: inherit;
 }
-.top_img img{
+
+.top_img img {
     width: 100%;
 }
-.azure_content{
-    background: rgb(0,41, 72);
+
+.azure_content {
+    background: rgb(0, 41, 72);
     background-repeat: no-repeat;
     object-fit: cover;
     padding-bottom: 56px;
 }
-.second_content{
+
+.second_content {
     padding-top: 2rem;
     padding-inline: 1rem;
 }
-.azure_span{
+
+.azure_span {
     height: 16px;
     margin: 0px 0px 16px 0px;
 }
-.azure_span span{
+
+.azure_span span {
     font-size: .75rem;
     letter-spacing: 0.96px;
     color: rgb(179, 218, 240);
     line-height: 16px;
 }
+
 .downwards_arrow::after {
     font-family: "azure";
     content: "";
     font-size: 16px;
-    margin-left:  2px;
+    margin-left: 2px;
     padding: 0px 0px 0px 7px;
 }
-.azure_h h1{
+
+.azure_h h1 {
     height: 80px;
     font-size: 32px;
     font-family: "bold";
@@ -158,11 +181,13 @@ header{
     line-height: 40px;
     letter-spacing: -1.6px;
 }
-.azure_p{
+
+.azure_p {
     margin: 16px 0px 0px 0px;
     padding: 0px 16px 0px 0px;
 }
-.azure_p p{
+
+.azure_p p {
     height: 164px;
     font-size: 18px;
     box-sizing: border-box;
@@ -176,7 +201,8 @@ header{
     line-height: 1.75rem;
     font-family: azure-N;
 }
-.start{
+
+.start {
     display: flex;
     padding: 12px;
     border-width: 2px;
@@ -187,7 +213,8 @@ header{
     border-radius: 10px;
     justify-content: center;
 }
-.start span{
+
+.start span {
     display: flex;
     font-size: .9375rem;
     line-height: 1.375rem;
@@ -196,24 +223,27 @@ header{
     padding: 0px 0px 2px;
     text-align: center;
 }
-.buttons_start{
+
+.buttons_start {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.start_button{
+
+.start_button {
     display: flex;
     padding: 12px;
     border-width: 2px;
-    background: rgb(0,41, 72);
-    border: 2px solid  rgb(179, 218, 240);
+    background: rgb(0, 41, 72);
+    border: 2px solid rgb(179, 218, 240);
     font-size: 15px;
     color: rgb(244, 250, 253);
     margin-top: 24px;
     border-radius: 10px;
     justify-content: center;
 }
-.start_button span{
+
+.start_button span {
     display: flex;
     font-size: .9375rem;
     line-height: 1.375rem;
@@ -221,12 +251,14 @@ header{
     padding: 0px 0px 2px;
     text-align: center;
 }
-.feature{
+
+.feature {
     display: flex;
     height: 56px;
     border-bottom: 4px solid rgb(0, 66, 117);
 }
-.featured{
+
+.featured {
     display: flex;
     padding: 12px;
     column-gap: 160px;
@@ -235,7 +267,8 @@ header{
     color: rgb(0, 103, 184);
     line-height: 20px;
 }
-.featured span{
+
+.featured span {
     box-sizing: border-box;
     color: rgb(0, 66, 117);
     font-size: 14px;
@@ -246,13 +279,15 @@ header{
     min-width: max-content;
     text-align: left;
 }
-.discover{
+
+.discover {
     background: url(img/background2.webp);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 56px 16px 56px 16px;
 }
-.discover_span{
+
+.discover_span {
     display: flex;
     box-sizing: border-box;
     color: rgb(23, 37, 61);
@@ -265,7 +300,8 @@ header{
     text-align: left;
     text-transform: uppercase;
 }
-.discover_h{
+
+.discover_h {
     display: block;
     box-sizing: border-box;
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -276,7 +312,8 @@ header{
     text-align: left;
     text-size-adjust: 100%;
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: column;
     background-attachment: scroll;
@@ -287,16 +324,18 @@ header{
     letter-spacing: -0.48px;
     line-height: 24px;
     font-weight: 400;
-    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
     flex-grow: 1;
 }
-.card_media{
+
+.card_media {
     object-fit: cover;
     padding: 8px 8px 0px 8px;
 }
-.card_media img{
+
+.card_media img {
     width: 100%;
-    aspect-ratio : 2.33333/1;
+    aspect-ratio: 2.33333/1;
     border-radius: 8px;
     box-sizing: border-box;
     color: rgb(23, 37, 61);
@@ -307,14 +346,16 @@ header{
     line-height: 24px;
     object-fit: cover;
 }
-.card_content{
+
+.card_content {
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
     align-items: flex-start;
     padding: 16px;
 }
-.card_content_span span{
+
+.card_content_span span {
     box-sizing: border-box;
     color: rgb(14, 23, 38);
     display: block;
@@ -327,7 +368,8 @@ header{
     text-align: left;
     text-size-adjust: 100%;
 }
-.card_content_p p{
+
+.card_content_p p {
     box-sizing: border-box;
     color: rgb(23, 37, 61);
     display: block;
@@ -339,17 +381,20 @@ header{
     line-height: 24px;
     text-align-last: 100%;
 }
-.cards{
+
+.cards {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
 }
-.card_slim{
+
+.card_slim {
     display: flex;
     margin-top: 32px;
     row-gap: 8px;
     column-gap: 8px;
 }
+
 .right_arrow::before {
     height: 35px;
     font-family: "azure";
@@ -364,7 +409,8 @@ header{
     border-bottom-style: solid;
     border-bottom-width: 2px;
 }
-.explore_ai span{
+
+.explore_ai span {
     box-sizing: border-box;
     color: rgb(0, 66, 117);
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -375,12 +421,14 @@ header{
     padding-bottom: 2px;
     text-align: left;
 }
-.solutions{
+
+.solutions {
     padding: 56px 16px;
     background: rgb(244, 250, 253);
 
 }
-.find_solution span{
+
+.find_solution span {
     box-sizing: border-box;
     color: rgb(23, 37, 61);
     display: block;
@@ -391,7 +439,8 @@ header{
     line-height: 16px;
     margin-bottom: 12px;
 }
-.ideas h2{
+
+.ideas h2 {
     box-sizing: border-box;
     display: block;
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -400,7 +449,8 @@ header{
     letter-spacing: -1.2px;
     line-height: 32px;
 }
-.buttons{
+
+.buttons {
     margin-top: 24px;
     box-sizing: border-box;
     color: rgb(23, 37, 61);
@@ -418,14 +468,17 @@ header{
     overflow: auto;
     scrollbar-width: none;
 }
-.feature_solution{
+
+.feature_solution {
     display: flex;
 }
-.tab_group{
+
+.tab_group {
     display: flex;
     align-items: center;
 }
-.buttons button{
+
+.buttons button {
     display: flex;
     height: 40px;
     align-items: flex-start;
@@ -437,22 +490,26 @@ header{
     border-radius: 25px;
     border-bottom-style: none;
     min-width: max-content;
-    color:  rgb(0, 85, 151);
+    color: rgb(0, 85, 151);
 }
-.button span{
+
+.button span {
     color: rgb(0, 66, 117);
 }
-button:nth-child(1){
+
+button:nth-child(1) {
     background-color: rgb(0, 85, 151);
 }
 
-.item{
+.item {
     color: #ffffff;
 }
-.azure_ai{
-    border-bottom: 0.5px solid  #b4b4b4;
+
+.azure_ai {
+    border-bottom: 0.5px solid #b4b4b4;
 }
-.ai{
+
+.ai {
     display: flex;
     height: 29px;
     align-items: center;
@@ -461,12 +518,14 @@ button:nth-child(1){
     row-gap: 8px;
     justify-content: space-between;
 }
+
 .up_arrow::before {
     font-family: "azure";
     content: "";
     font-size: 16px;
 }
-.portfolio{
+
+.portfolio {
     display: flex;
     box-sizing: border-box;
     color: rgb(23, 37, 61);
@@ -476,7 +535,8 @@ button:nth-child(1){
     letter-spacing: -0.48px;
     line-height: 24px;
 }
-.explore{
+
+.explore {
     box-sizing: border-box;
     color: rgb(0, 66, 117);
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -488,32 +548,36 @@ button:nth-child(1){
     padding-bottom: 2px;
     text-align: left;
     text-underline-offset: 2px;
-    -webkit-tab-highlight-color:rgba(0, 0, 0, 0);
+    -webkit-tab-highlight-color: rgba(0, 0, 0, 0);
     margin-bottom: 24px;
 }
-.build{
+
+.build {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 24px;
     border-bottom: 0.5px solid #b4b4b4;
 }
-.build_img img{
-   aspect-ratio: auto;
-   border-radius: 16px;
-   box-sizing: border-box;
-   color: rgb(23, 37, 61);
-   font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-   font-size: 16px;
-   font-weight: 400;
-   letter-spacing: -0.48px;
-   max-width: 100%;
-   object-fit: fill;
-   overflow-clip-margin: content-box;
+
+.build_img img {
+    aspect-ratio: auto;
+    border-radius: 16px;
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+    max-width: 100%;
+    object-fit: fill;
+    overflow-clip-margin: content-box;
 }
-.bellbutton{
+
+.bellbutton {
     position: absolute;
 }
+
 .bellbutton::before {
     display: flex;
     font-family: "azure";
@@ -535,7 +599,8 @@ button:nth-child(1){
     list-style-type: none;
     row-gap: 12px;
 }
-.products{
+
+.products {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -544,7 +609,8 @@ button:nth-child(1){
     background-size: cover;
     padding: 56px 16px 56px 16px;
 }
-.kubermetes{
+
+.kubermetes {
     margin-top: 32px;
     background: url(img/card4.avif);
     background-size: cover;
@@ -553,16 +619,18 @@ button:nth-child(1){
     padding: 16px;
     border-radius: 16px;
 }
-.aks{
+
+.aks {
     height: 220px;
 }
 
-.service_aks{
+.service_aks {
     display: flex;
     gap: 18px;
     flex-direction: column;
 }
-.service_aks h3{
+
+.service_aks h3 {
     display: flex;
     box-sizing: border-box;
     color: rgb(14, 23, 38);
@@ -575,7 +643,8 @@ button:nth-child(1){
     text-align: left;
     gap: 89px;
 }
-.service_aks p{
+
+.service_aks p {
     height: 48px;
     box-sizing: border-box;
     color: rgb(23, 37, 61);
@@ -586,7 +655,8 @@ button:nth-child(1){
     letter-spacing: -0.48px;
     line-height: 24px;
 }
-.explore_product{
+
+.explore_product {
     display: flex;
     padding: 12px;
     background: #0078d4;
@@ -597,7 +667,8 @@ button:nth-child(1){
     align-items: center;
     margin-top: 20px;
 }
-.explore_product span{
+
+.explore_product span {
     height: 24px;
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
@@ -606,31 +677,36 @@ button:nth-child(1){
     line-height: 22px;
     text-align: center;
 }
-.open_service{
+
+.open_service {
     background-color: #ffffff;
     border-radius: 16px;
-    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
 }
-.studio{
+
+.studio {
     padding: 16px;
 }
-.studio_img{
+
+.studio_img {
     display: flex;
     width: 48px;
     height: 48px;
     justify-content: center;
 }
-.studio_img img{
+
+.studio_img img {
     width: 24px;
     height: 24px;
 }
-.star_span{
+
+.star_span {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     column-gap: 12px;
     box-sizing: border-box;
-    color: rgb(23, 37, 61); 
+    color: rgb(23, 37, 61);
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -638,7 +714,8 @@ button:nth-child(1){
     line-height: 24px;
     row-gap: 12px;
 }
-.star_link{
+
+.star_link {
     margin-top: 32px;
     box-sizing: border-box;
     color: rgb(0, 66, 117);
@@ -648,7 +725,8 @@ button:nth-child(1){
     font-weight: 600;
     justify-content: center;
 }
-.gartner{
+
+.gartner {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -657,11 +735,13 @@ button:nth-child(1){
     background-repeat: no-repeat;
     padding: 48px 16px 48px 16px;
 }
-.microsoft{
+
+.microsoft {
     background-color: #ffffff;
     border-radius: 16px;
 }
-.gartner_img img{
+
+.gartner_img img {
     height: 100%;
     width: 100%;
     padding: 8px 12px 0px;
@@ -676,18 +756,21 @@ button:nth-child(1){
     line-height: 24px;
     object-fit: cover;
 }
-.microsoft_leader{
+
+.microsoft_leader {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 16px;
 }
-.gartner_microsoft{
+
+.gartner_microsoft {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.microsoft_h h3{
+
+.microsoft_h h3 {
     box-sizing: border-box;
     color: rgb(14, 23, 38);
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -697,7 +780,8 @@ button:nth-child(1){
     line-height: 32px;
     text-align: left;
 }
-.microsoft_p{
+
+.microsoft_p {
     box-sizing: border-box;
     color: rgb(23, 37, 61);
     font-family: "azure-N";
@@ -705,18 +789,21 @@ button:nth-child(1){
     font-weight: 400;
     letter-spacing: -0.54px;
     line-height: 28px;
-    text-align: left;    
+    text-align: left;
 }
-.transform{
-   box-sizing: border-box;
-   color: rgb(23, 37, 61);
-   display: block;
+
+.transform {
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    display: block;
 }
-.transform_way{
+
+.transform_way {
     padding: 48px 16px 0px 16px;
     background: url(img/background5.webp);
 }
-.transform_you{
+
+.transform_you {
     box-sizing: border-box;
     color: rgb(23, 37, 61);
     display: block;
@@ -728,6 +815,7 @@ button:nth-child(1){
     text-align: center;
     margin: 0px 0px 12px 0px;
 }
+
 .transform_the_way {
     box-sizing: border-box;
     color: rgb(14, 23, 38);
@@ -738,23 +826,27 @@ button:nth-child(1){
     text-align: center;
     unicode-bidi: isolate;
 }
-.transform_the_way h2{
+
+.transform_the_way h2 {
     font-size: 28px;
     font-family: "Bold";
 }
-.it_professional{
+
+.it_professional {
     height: 52px;
     padding: 8px 0px 8px 8px;
     flex-direction: column;
     align-items: flex-start;
     align-items: center;
     border-bottom-style: none;
-   
+
 }
-.it_professional a:nth-child(1){
+
+.it_professional a:nth-child(1) {
     border-bottom: 3px solid rgb(0, 66, 117);
 }
-.developers{
+
+.developers {
     display: flex;
     align-items: flex-start;
     box-sizing: border-box;
@@ -763,9 +855,10 @@ button:nth-child(1){
     border-bottom-style: none;
     scrollbar-width: none;
     overflow: scroll;
-   
+
 }
-.developers a{
+
+.developers a {
     /* width: 220px; */
     height: 24px;
     box-shadow: inset 1px 2px 0.125rem rgba(0, 0, 0, 0.12), 0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
@@ -776,9 +869,10 @@ button:nth-child(1){
     min-width: 220px;
     padding: 12px 16px 16px 16px;
     padding-right: 20px;
-    
+
 }
-.tab{
+
+.tab {
     display: flex;
     gap: 20px;
     box-sizing: border-box;
@@ -790,6 +884,7 @@ button:nth-child(1){
     margin-top: 24px;
     padding-bottom: 40px;
 }
+
 .button_right::after {
     content: "";
     font-family: "Azure";
@@ -802,6 +897,7 @@ button:nth-child(1){
     font-weight: 600;
     opacity: .6;
 }
+
 .button_left::after {
     content: "";
     font-family: Azure;
@@ -812,7 +908,8 @@ button:nth-child(1){
     padding: 10px;
     font-weight: 600;
 }
-.azure_solution{
+
+.azure_solution {
     box-sizing: border-box;
     color: rgb(23, 37, 61);
     font-family: "Bold";
@@ -823,13 +920,15 @@ button:nth-child(1){
     padding: 24px 0px 48px 0px;
     line-height: 24px;
 }
-.azure_service{
+
+.azure_service {
     display: flex;
     align-items: center;
     flex-direction: column;
     font-size: 16px;
     text-align: center;
 }
+
 .azure_service_h h4 {
     box-sizing: border-box;
     color: rgb(14, 23, 38);
@@ -842,23 +941,27 @@ button:nth-child(1){
     text-align: center;
     text-size-adjust: 100%;
 }
-.whole{
+
+.whole {
     background: url(img/background5.webp);
     background-size: cover;
     padding-inline: 16px;
 }
-.whole_studio{
+
+.whole_studio {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.azure_slim{
+
+.azure_slim {
     display: flex;
     row-gap: 8px;
     column-gap: 8px;
     justify-content: center;
     margin-top: 12px;
 }
+
 .arrow::before {
     height: 35px;
     font-family: "azure";
@@ -873,7 +976,8 @@ button:nth-child(1){
     border-bottom-style: solid;
     border-bottom-width: 2px;
 }
-.azure_service_ai span{
+
+.azure_service_ai span {
     box-sizing: border-box;
     color: rgb(0, 66, 117);
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -884,16 +988,18 @@ button:nth-child(1){
     padding-bottom: 2px;
     text-align: left;
 }
-.migration_img{
+
+.migration_img {
     backdrop-filter: blur(20px);
     background-clip: border-box;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 16px;
     margin-top: 24px;
-    border: 1px; 
-    border-radius: 16px;   
+    border: 1px;
+    border-radius: 16px;
 }
-.migration_img img{
+
+.migration_img img {
     width: 100%;
     border-radius: 8px;
     box-sizing: border-box;
@@ -903,7 +1009,8 @@ button:nth-child(1){
     letter-spacing: -0.48px;
     object-fit: fill;
 }
-.glob{
+
+.glob {
     background: url(img/card8.avif);
     background-size: cover;
     box-sizing: border-box;
@@ -916,10 +1023,12 @@ button:nth-child(1){
     background-position: center;
     padding: 56px 0px 80px 0px;
 }
-.global{
+
+.global {
     padding: 0px 16px 0px 16px;
 }
-.azure_infrastructure{
+
+.azure_infrastructure {
     box-sizing: border-box;
     color: rgb(244, 250, 253);
     display: block;
@@ -929,7 +1038,8 @@ button:nth-child(1){
     line-height: 40px;
     text-align: center;
 }
-.azure_infrastructure_p p{
+
+.azure_infrastructure_p p {
     box-sizing: border-box;
     color: rgb(220, 238, 248);
     text-align: center;
@@ -942,7 +1052,8 @@ button:nth-child(1){
     margin-top: 16px;
     padding-inline: 16px;
 }
-.azure_infrastructure_globe{
+
+.azure_infrastructure_globe {
     display: flex;
     justify-content: center;
     padding: 12px;
@@ -954,12 +1065,14 @@ button:nth-child(1){
     align-items: center;
     margin-top: 20px;
 }
-.customer{
+
+.customer {
     background: url(img/background6.webp);
     background-size: cover;
     padding: 48px 16px;
 }
-.customer_stories_span{
+
+.customer_stories_span {
     box-sizing: border-box;
     color: rgb(23, 37, 61);
     display: block;
@@ -972,7 +1085,8 @@ button:nth-child(1){
     text-align: left;
     text-transform: uppercase;
 }
-.customer_stories_h{
+
+.customer_stories_h {
     box-sizing: border-box;
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: block;
@@ -981,23 +1095,25 @@ button:nth-child(1){
     text-align: left;
     text-size-adjust: 100%;
 }
+
 /* .hp_github{
     background-color: #ffffff;
     border-radius: 16px;
 } */
-.hp_workflow{
-   box-sizing: border-box;
-   color: rgb(23, 37, 61);
-   display: flex;
-   flex-wrap: wrap;
-   font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-   font-size: 16px;
-   font-weight: 400;
-   letter-spacing: -0.48px;
-   line-height: 24px;
-   text-align: left;
+.hp_workflow {
+    box-sizing: border-box;
+    color: rgb(23, 37, 61);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    text-align: left;
 }
-.hp_workflow img{
+
+.hp_workflow img {
     width: 100%;
     padding: 8px 12px 0px;
     aspect-ratio: 1.33333/1;
@@ -1011,13 +1127,15 @@ button:nth-child(1){
     line-height: 24px;
     object-fit: cover;
 }
-.hp_incorporated{
+
+.hp_incorporated {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 16px;
 }
-.logo_hp img{
+
+.logo_hp img {
     box-sizing: border-box;
     color: rgb(23, 37, 61);
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1032,7 +1150,8 @@ button:nth-child(1){
     box-sizing: border-box;
     box-shadow: inset 1px 2px 0.125rem rgba(0, 0, 0, 0.12), 0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
 }
-.hp_work h4{
+
+.hp_work h4 {
     box-sizing: border-box;
     color: rgb(23, 37, 61);
     display: block;
@@ -1046,21 +1165,25 @@ button:nth-child(1){
     text-wrap: wrap;
     white-space: collapse;
 }
-.azure_products{
+
+.azure_products {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.logo_double{
+
+.logo_double {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.logos_double{
+
+.logos_double {
     display: flex;
     gap: 5px;
 }
-.product_list h6{
+
+.product_list h6 {
     box-sizing: border-box;
     color: rgb(14, 23, 38);
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1071,7 +1194,8 @@ button:nth-child(1){
     overflow-wrap: break-word;
     text-align: left;
 }
-.logo_one u{
+
+.logo_one u {
     box-sizing: border-box;
     color: rgb(0, 103, 184);
     cursor: pointer;
@@ -1086,19 +1210,22 @@ button:nth-child(1){
     text-align: left;
     text-decoration-color: rgb(0, 103, 184);
 }
-.whole_hp{
+
+.whole_hp {
     display: flex;
     overflow: auto;
     scrollbar-width: none;
 }
-.hp{
+
+.hp {
     background-color: #ffffff;
     border-radius: 16px;
     flex-basis: 100%;
     flex-grow: 0;
     flex-shrink: 0;
 }
-.arrows{
+
+.arrows {
     display: flex;
     gap: 20px;
     box-sizing: border-box;
@@ -1109,6 +1236,7 @@ button:nth-child(1){
     line-height: 24px;
     margin-top: 24px;
 }
+
 .arrow_right::after {
     content: "";
     font-family: "Azure";
@@ -1121,6 +1249,7 @@ button:nth-child(1){
     font-weight: 600;
     opacity: .6;
 }
+
 .arrow_left::after {
     content: "";
     font-family: Azure;
@@ -1131,13 +1260,16 @@ button:nth-child(1){
     padding: 10px;
     font-weight: 600;
 }
-.take_step{
+
+.take_step {
     background: url(img/background7.webp);
 }
-.steps{
+
+.steps {
     padding: 56px 16px;
 }
-.azure_steps_h h2{
+
+.azure_steps_h h2 {
     box-sizing: border-box;
     color: rgb(244, 250, 253);
     display: block;
@@ -1149,7 +1281,8 @@ button:nth-child(1){
     text-align: center;
     margin-bottom: 24px;
 }
-.card_azure{
+
+.card_azure {
     background-attachment: scroll;
     background-clip: border-box;
     background-color: rgb(254, 254, 254);
@@ -1160,11 +1293,13 @@ button:nth-child(1){
     font-weight: 400;
     flex-grow: 1;
 }
-.card_content_azure{
+
+.card_content_azure {
     align-items: flex-start;
     padding: 16px;
 }
-.card_content_span_azure span{
+
+.card_content_span_azure span {
     box-sizing: border-box;
     color: rgb(14, 23, 38);
     display: block;
@@ -1177,7 +1312,8 @@ button:nth-child(1){
     text-align: left;
     text-size-adjust: 100%;
 }
-.card_content_p p{
+
+.card_content_p p {
     box-sizing: border-box;
     color: rgb(23, 37, 61);
     display: block;
@@ -1189,17 +1325,20 @@ button:nth-child(1){
     line-height: 24px;
     text-align-last: 100%;
 }
-.cards{
+
+.cards {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
 }
-.card_slim{
+
+.card_slim {
     display: flex;
     margin-top: 32px;
     row-gap: 8px;
     column-gap: 8px;
 }
+
 .right_arrow::before {
     height: 35px;
     font-family: "azure";
@@ -1214,7 +1353,8 @@ button:nth-child(1){
     border-bottom-style: solid;
     border-bottom-width: 2px;
 }
-.explore_ai span{
+
+.explore_ai span {
     box-sizing: border-box;
     color: rgb(0, 66, 117);
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1225,10 +1365,12 @@ button:nth-child(1){
     padding-bottom: 2px;
     text-align: left;
 }
-.mobile_azure{
+
+.mobile_azure {
     padding: 24px 16px;
 }
-.get_mobile{
+
+.get_mobile {
     align-items: center;
     background-color: rgb(230, 230, 230);
     border-radius: 3.2px;
@@ -1249,10 +1391,12 @@ button:nth-child(1){
     position: relative;
     text-align: left;
 }
-.apps{
+
+.apps {
     display: flex;
 }
-.apps img{
+
+.apps img {
     height: 24px;
     width: 24px;
     box-sizing: border-box;
@@ -1262,21 +1406,26 @@ button:nth-child(1){
     line-height: 24px;
     margin: 8px 0px 8px 12px;
 }
-.get_mobile img{
+
+.get_mobile img {
     width: 24px;
     height: 24px;
     margin-right: 8px;
 }
-.footer{
+
+.footer {
     background-color: rgb(242, 242, 242);
 }
-.footer_azure{
+
+.footer_azure {
     padding-inline: 12px;
 }
-.explore_azure{
+
+.explore_azure {
     padding: 12px;
 }
-.explore_azure_h h4{
+
+.explore_azure_h h4 {
     box-sizing: border-box;
     color: rgb(97, 97, 97);
     display: block;
@@ -1288,7 +1437,8 @@ button:nth-child(1){
     padding-top: 36px;
     padding-bottom: 4px;
 }
-.azure_li li{
+
+.azure_li li {
     box-sizing: border-box;
     color: rgb(97, 97, 97);
     cursor: pointer;
@@ -1301,10 +1451,12 @@ button:nth-child(1){
     padding-bottom: 8px;
     padding-top: 8px;
 }
-.footer_list_span{
+
+.footer_list_span {
     display: flex;
     align-items: center;
 }
+
 .footer_list_span::before {
     font-family: "azure-MW";
     content: "";
@@ -1317,10 +1469,12 @@ button:nth-child(1){
     font-weight: 400;
     margin-right: 10px;
 }
-.footer_list{
-    background-color:  rgb(242, 242, 242);
+
+.footer_list {
+    background-color: rgb(242, 242, 242);
 }
-.footer_list_span a{
+
+.footer_list_span a {
     box-sizing: border-box;
     color: rgb(97, 97, 97);
     cursor: pointer;
@@ -1338,19 +1492,21 @@ button:nth-child(1){
     text-wrap: wrap;
     text-decoration: none;
 }
-.right_wrong{
+
+.right_wrong {
     box-sizing: border-box;
     clip-rule: evenodd;
     color: rgb(97, 97, 97);
     cursor: pointer;
-    
+
 }
-.last_footer{
-    background-color:  rgb(242, 242, 242);
+
+.last_footer {
+    background-color: rgb(242, 242, 242);
     padding: 30px 24px 16px 24px;
 }
 
-.right_wrong svg{
+.right_wrong svg {
     box-sizing: border-box;
     cursor: pointer;
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1361,7 +1517,8 @@ button:nth-child(1){
     vertical-align: middle;
     text-align: left;
 }
-.right_wrong{
+
+.right_wrong {
     box-sizing: border-box;
     color: rgb(97, 97, 97);
     cursor: pointer;
@@ -1375,7 +1532,8 @@ button:nth-child(1){
     margin-bottom: 16px;
     padding: 4px 24px 0px 0px;
 }
-.health{
+
+.health {
     box-sizing: border-box;
     color: rgb(97, 97, 97);
     cursor: pointer;
@@ -1389,7 +1547,8 @@ button:nth-child(1){
     padding-right: 24px;
     padding-top: 4px;
 }
-.whole_footer{
+
+.whole_footer {
     box-sizing: border-box;
     color: rgb(97, 97, 97);
     display: block;
@@ -1399,103 +1558,128 @@ button:nth-child(1){
     margin-top: 12px;
     margin-bottom: 3px;
 }
-.footer_list_iteams ul{
+
+.footer_list_iteams ul {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
-.footer_list_iteams li{
+
+.footer_list_iteams li {
     list-style-type: none;
 }
-.tab_head{
+
+.tab_head {
     display: none;
 }
-.chatgpt{
+
+.chatgpt {
     display: none;
 }
-.features{
+
+.features {
     display: none;
 }
 
 
 @media screen and (min-width:540px) {
-    .second_content{
+    .second_content {
         padding: 0px 64px;
     }
-    .azure_span{
+
+    .azure_span {
         padding-top: 32px;
         margin-bottom: 12px;
     }
-    .buttons_start{
+
+    .buttons_start {
         display: flex;
         flex-direction: row;
         gap: 10px;
     }
-    .discover{
+
+    .discover {
         padding-inline: 64px;
     }
-    .solutions{
+
+    .solutions {
         padding-inline: 64px;
     }
-    .build{
+
+    .build {
         object-fit: cover;
     }
-    .products{
+
+    .products {
         padding-inline: 64px;
     }
-    .gartner{
+
+    .gartner {
         padding-inline: 64px;
     }
-    .transform_way{
+
+    .transform_way {
         padding-inline: 64px;
     }
-    .whole{
+
+    .whole {
         padding-inline: 64px;
     }
-    .customer{
+
+    .customer {
         padding-inline: 64px;
     }
-    .steps{
+
+    .steps {
         padding-inline: 64px;
     }
-    .mobile_azure{
+
+    .mobile_azure {
         padding-inline: 64px;
     }
-    .mobile_app{
+
+    .mobile_app {
         display: flex;
         flex-direction: row;
         align-items: center;
     }
-   .footer_azure{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-   }
+
+    .footer_azure {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
+
 @media screen and (min-width:860px) {
-    .azure{
+    .azure {
         display: none;
     }
-    .mobile_head{
+
+    .mobile_head {
         display: none;
     }
-    .tab_head{
+
+    .tab_head {
         display: flex;
         padding-inline: 24px;
         height: 54px;
         gap: 20px;
     }
-    .tab_logo{
+
+    .tab_logo {
         display: flex;
         align-items: center;
         padding: 16px 6px 16px 10px;
         margin-bottom: 2px;
     }
-    .tab_azure_logo img{
+
+    .tab_azure_logo img {
         height: 23px;
         width: 108px;
         margin-top: -3px;
         max-width: none;
     }
+
     .tab_line::after {
         font-family: "azure-mw";
         content: " ";
@@ -1504,33 +1688,39 @@ button:nth-child(1){
         box-sizing: border-box;
         color: #000;
         padding: 16px 6px 16px 10px;
-       
-    }    
-    .tab_azure{
-        display: flex;
-    }
-    .tab_line{
-        display: flex;
-        flex-direction: row-reverse;
-       align-items: center;
 
     }
-    .tab_list{
+
+    .tab_azure {
+        display: flex;
+    }
+
+    .tab_line {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+    }
+
+    .tab_list {
         display: flex;
         align-items: center;
     }
-    .tab_ul{
+
+    .tab_ul {
         display: flex;
         align-items: center;
         gap: 30px;
     }
-    .tab_ul li{
+
+    .tab_ul li {
         display: flex;
         list-style-type: none;
         align-items: center;
-        gap:20px;
+        gap: 20px;
     }
-    .tab_azure_line{
+
+    .tab_azure_line {
         display: flex;
         padding: 16px 6px 16px 10px;
         align-items: center;
@@ -1544,7 +1734,8 @@ button:nth-child(1){
         margin-top: -3px;
         font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
-    .tab_ul span{
+
+    .tab_ul span {
         display: flex;
         gap: 20px;
         align-items: flex-start;
@@ -1556,15 +1747,17 @@ button:nth-child(1){
         margin-right: -10px;
         margin-top: 1px;
         outline-offset: -2px;
-     }
-    .tab_down::after{
+    }
+
+    .tab_down::after {
         display: flex;
         font-family: "azure-mw";
         content: "";
         font-size: 10px;
         align-items: center;
     }
-    .search_fonts::after{
+
+    .search_fonts::after {
         font-family: "azure-mw";
         content: "";
         font-size: 16px;
@@ -1574,156 +1767,188 @@ button:nth-child(1){
         padding: 20px 9px 30px 9px;
         margin: 0px 6px 1px 6px;
     }
-    .top_img{
-       position: relative;
+
+    .top_img {
+        position: relative;
     }
-    .second_content{
+
+    .second_content {
         display: flex;
         position: absolute;
         top: 130px;
         background: transparent;
-        flex-basis: 50%;
-        width: 388px;
+        /* flex-basis: 50%;
+        width: 388px; */
     }
-    .azure_span span{
+
+    .whole_tab_div{
+        flex-basis: 50%;
+    }
+
+    .azure_span span {
         font-size: 12px;
         margin-bottom: 16px;
     }
-    .azure_h h1{
+
+    .azure_h h1 {
         font-size: 40px;
         line-height: 48px;
     }
-    .azure_p p{
+
+    .azure_p p {
         font-size: 18px;
         line-height: 28px;
     }
-    .azure_p{
+
+    .azure_p {
         margin-top: 28px;
     }
-   .top_img img{
+
+    .top_img img {
         height: 628px;
         object-fit: cover;
-   }
-   .start_button{
+    }
+
+    .start_button {
         background: transparent;
-   }
-   .ai-chat-banner{
-        padding:32px 56px;
     }
-    .layout-gpt-cols{
-        display:flex;
-        flex-wrap:wrap;
-        column-gap:16px;
-        row-gap:8px;
+
+    .ai-chat-banner {
+        padding: 32px 56px;
     }
-    .ai-assistant{
-        display:flex;
-        align-items:center;
-        flex-basis:calc(50% - 8px);
-        flex-grow:0;
-        flex-shrink:0;
+
+    .layout-gpt-cols {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 16px;
+        row-gap: 8px;
     }
-    .ai-assistant-flex{
-        display:flex;
-        flex-direction:column;
-        align-items:flex-start;
-        color:rgb(220, 238, 248);
-        column-gap:5px;
+
+    .ai-assistant {
+        display: flex;
+        align-items: center;
+        flex-basis: calc(50% - 8px);
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+
+    .ai-assistant-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: rgb(220, 238, 248);
+        column-gap: 5px;
         row-gap: 5px;
-        padding:12px 12px 12px 0px;
+        padding: 12px 12px 12px 0px;
     }
-    .assistant-content-head h2{
-        margin:0;
-        color:rgb(244, 250, 253);
-        font-family:'bold';
+
+    .assistant-content-head h2 {
+        margin: 0;
+        color: rgb(244, 250, 253);
+        font-family: 'bold';
     }
-    .assistant-badge img{
-        height:32.875px;
-        max-height:40px;
-        width:40px;
-        max-width:40px;
+
+    .assistant-badge img {
+        height: 32.875px;
+        max-height: 40px;
+        width: 40px;
+        max-width: 40px;
     }
-    .assistant-content{
-        display:flex;
-        flex-direction:column;
-        row-gap:4px;
-        align-items:flex-start;
+
+    .assistant-content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4px;
+        align-items: flex-start;
     }
-    .assistant-content-para{
-        font-size:14px;
-        letter-spacing:-0.42px;
-        line-height:16px;
+
+    .assistant-content-para {
+        font-size: 14px;
+        letter-spacing: -0.42px;
+        line-height: 16px;
     }
-    .layout-ai-chat{
-        display:flex;
-        flex-direction:column;
-        row-gap:10px;
-        justify-content:center;
-        flex-basis:calc(50% - 8px);
-        flex-grow:0;
-        flex-shrink:0;
+
+    .layout-ai-chat {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        justify-content: center;
+        flex-basis: calc(50% - 8px);
+        flex-grow: 0;
+        flex-shrink: 0;
     }
-    .ai-searchbar{
-        height:60px;
-        display:flex;
-        align-items:center;
-        box-sizing:border-box;
-        background-color:rgb(254, 254, 254);
-        border-radius:8px;
+
+    .ai-searchbar {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        background-color: rgb(254, 254, 254);
+        border-radius: 8px;
     }
-    .ai-searchbar input{
-        width:100%;
-        padding:20px 60px 20px 16px;
-        border:0;
-        border-radius:8px;
-        font-size:15px;
+
+    .ai-searchbar input {
+        width: 100%;
+        padding: 20px 60px 20px 16px;
+        border: 0;
+        border-radius: 8px;
+        font-size: 15px;
     }
-    .linear-border{
-        height:4px;
+
+    .linear-border {
+        height: 4px;
         background: linear-gradient(90deg, rgb(10, 134, 196) 0.3%, rgb(113, 237, 232) 100%);
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
     }
-    .border-div-plus{
+
+    .border-div-plus {
         border-radius: 8px;
-        border-bottom-right-radius:5px;
+        border-bottom-right-radius: 5px;
         border-bottom-left-radius: 5px;
-        background-color:rgb(254, 254, 254);
-        width:100%;
+        background-color: rgb(254, 254, 254);
+        width: 100%;
     }
-    .ai-search-btn{
-        padding:14px;
-        border:0;
-        background-color:transparent;
-    }
-    .ai-search-btn div{
-        width:24px;
-        height:24px;
-    }
-    .ai-list-tags{
-        list-style-type: none;
-        display:flex;
-        flex-direction: column;
-        row-gap:16px;
-        flex-wrap:wrap;
-    }
-    .ai-chat-message{
-        padding:8px 10px;
+
+    .ai-search-btn {
+        padding: 14px;
+        border: 0;
         background-color: transparent;
-        border:1px solid rgb(141, 200, 232);
-        border-radius:8px;
-        color:rgb(244, 250, 253);
-        font-size:13px;
-        font-weight: 400;
-        height:38px;
     }
-    .feature{
+
+    .ai-search-btn div {
+        width: 24px;
+        height: 24px;
+    }
+
+    .ai-list-tags {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        flex-wrap: wrap;
+    }
+
+    .ai-chat-message {
+        padding: 8px 10px;
+        background-color: transparent;
+        border: 1px solid rgb(141, 200, 232);
+        border-radius: 8px;
+        color: rgb(244, 250, 253);
+        font-size: 13px;
+        font-weight: 400;
+        height: 38px;
+    }
+
+    .feature {
         display: none;
     }
-    .features{
+
+    .features {
         display: flex;
     }
-    .solution{
+
+    .solution {
         display: flex;
         flex-grow: 1;
         letter-spacing: -0.48px;
@@ -1734,24 +1959,30 @@ button:nth-child(1){
         justify-content: space-between;
         line-height: 24px;
     }
-    .featured:nth-child(1){
+
+    .featured:nth-child(1) {
         border-bottom: 3px solid rgb(0, 66, 117);
     }
-    .chatgpt{
+
+    .chatgpt {
         display: flex;
     }
-    .azure_content{
+
+    .azure_content {
         padding: 32px 0px;
     }
-    .discover{
+
+    .discover {
         padding: 96px 64px;
     }
-    .cards{
+
+    .cards {
         display: flex;
         flex-direction: row;
         margin-top: 48px;
     }
-    .card_content{
+
+    .card_content {
         display: flex;
         flex-direction: column;
         flex: 1 1 auto;
@@ -1759,20 +1990,25 @@ button:nth-child(1){
         gap: 20px;
         padding: 24px;
     }
-    .card_content_p{
+
+    .card_content_p {
         padding: 0px 24px 0px 0px;
     }
-    .solutions{
+
+    .solutions {
         padding: 96px 64px;
         position: relative;
     }
-    .features{
+
+    .features {
         padding: 0px 56px;
         align-items: center;
     }
-    .featured{
+
+    .featured {
         margin: 0px 48px 0px 0px;
     }
+
     .button_left_arrows::after {
         content: "";
         font-family: Azure;
@@ -1784,16 +2020,19 @@ button:nth-child(1){
         font-weight: 600;
         margin-inline: 8px;
     }
-    .build{
+
+    .build {
         position: absolute;
         top: 235px;
         right: 64px;
         width: 40%;
     }
-    .whole_solutions{
+
+    .whole_solutions {
         width: 28%;
     }
-    .start_azure{
+
+    .start_azure {
         display: flex;
         padding: 12px;
         border-width: 2px;
@@ -1805,70 +2044,86 @@ button:nth-child(1){
         justify-content: center;
         margin: 0px 0px 0px 32px;
     }
-    .start_azure span{
+
+    .start_azure span {
         width: 108px;
         text-align: center;
     }
-    .kumbermetes{
+
+    .kumbermetes {
         display: grid;
         grid-area: 1/1;
     }
-    .whole_studio{
+
+    .whole_studio {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 16px;
     }
-    .microsoft{
+
+    .microsoft {
         display: flex;
         flex-direction: row-reverse;
     }
-    .microsoft_leader{
+
+    .microsoft_leader {
         flex-basis: 50%;
         row-gap: 96px;
         column-gap: 96px;
     }
+
     .gartner_img {
         object-fit: cover;
     }
-    .migration_img{
+
+    .migration_img {
         margin: 32px 124.672px 0px 124.672px;
     }
-    .glob{
+
+    .glob {
         padding: 96px 0px 96px 0px;
     }
-    .global{
+
+    .global {
         padding: 0px 64px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .azure_infrastructure_p p{
+
+    .azure_infrastructure_p p {
         padding: 0px 48px;
         margin-top: 24px;
     }
-    .azure_infrastructure_globe{
+
+    .azure_infrastructure_globe {
         display: flex;
         width: 150px;
         justify-content: center;
         text-align: center;
     }
-    .hp_github{
+
+    .hp_github {
         display: flex;
         flex-direction: row-reverse;
     }
-    .hp_workflow img{
+
+    .hp_workflow img {
         border-radius: 16px;
         padding: 8px 8px 8px 0px;
     }
-    .hp_incorporated{
+
+    .hp_incorporated {
         flex-basis: 80%;
         padding: 24px;
     }
-    .explore_product{
+
+    .explore_product {
         padding: 12px 16px;
         width: 106px;
     }
-    .card_content_azure{
+
+    .card_content_azure {
         display: flex;
         flex-direction: column;
         flex: 1 1 auto;
@@ -1876,16 +2131,88 @@ button:nth-child(1){
         gap: 15px;
         padding: 24px;
     }
-    .card_azure{
+
+    .card_azure {
         display: flex;
         flex: 0 0 calc(calc(100% - calc(1rem * (3 - 1))) / 3);
     }
-    .studio{
+
+    .studio {
         display: flex;
         flex-direction: column;
     }
-    .star_span{
+
+    .star_span {
         display: flex;
         flex: 1 1 auto;
+    }
+
+    .azure_aii_whole:nth-child(1) {
+        border-left: 3px solid #000;
+    }
+
+/* section fixed */
+
+    #fixed{
+        display: flex;
+        height: 70px;
+    }
+    .finalblock_elm3 li{
+        padding:0px 24px 4px 0px;
+    }
+    .finalBlock{
+        padding: 32px 6px 16px 12px;
+        gap: 0px;
+    }
+    .fixedBlock{
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+        z-index: 1000;
+        /* top: 696px; */
+        right: 16px;
+        bottom: 0;
+    }
+    .fixedBlock_elm{
+        display: flex;
+        align-items: center;
+        box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.5);
+        background: rgba(255, 255, 255, 0.9);;
+        border-radius: 16px;
+        padding: 16px;
+        padding-right: 17px;
+    }
+    .fixedBlock_elm1-image{
+        padding-top: 2px;
+    }
+    .fixedBlock_elm1-image img{
+        width: 24px;
+        height: 24px;
+    }
+    .fixedBlock_ecd lm2{
+        margin-left: 12px;
+    }
+    .fixedBlock_elm2 span{
+        font-size: 18px;
+        font-family: 'bold';
+        letter-spacing: -0.54px;
+    }
+    .fixedBlock_elm3 span::after{
+        font-family: 'azure-mw';
+        content: "";
+        font-size: 16px;
+        color: white;
+    }
+    .fixedBlock_elm3{
+        margin-inline-start: 32px;
+        padding: 8px;
+        letter-spacing: -0.3px;
+        border-radius: 8px;
+        background: rgb(0, 120, 212);
+        height: 36px;
+        width: 35.7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
