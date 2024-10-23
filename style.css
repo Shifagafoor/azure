@@ -129,16 +129,9 @@ header {
     padding: 0px 0px 0px 7px;
 }
 
-.top_img {
-    display: flex;
-    object-fit: cover;
-    max-width: inherit;
-}
-
 .top_img img {
     width: 100%;
 }
-
 .azure_content {
     background: rgb(0, 41, 72);
     background-repeat: no-repeat;
@@ -1568,11 +1561,13 @@ button:nth-child(1) {
 .footer_list_iteams ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    /* gap: 10px; */
 }
 
 .footer_list_iteams li {
     list-style-type: none;
+    padding: 0px 8px 4px 0px;
+
 }
 
 .tab_head {
@@ -1674,6 +1669,10 @@ button:nth-child(1) {
         gap: 20px;
     }
 
+    .tab_full{
+        display: flex;
+        justify-content: space-between;
+    }
     .tab_logo {
         display: flex;
         align-items: center;
@@ -1696,7 +1695,7 @@ button:nth-child(1) {
         box-sizing: border-box;
         color: #000;
         padding: 16px 6px 16px 10px;
-
+        justify-content: space-between;
     }
 
     .tab_azure {
@@ -1776,9 +1775,9 @@ button:nth-child(1) {
         margin: 0px 6px 1px 6px;
     }
 
-    .top_img {
+    /* .top_img {
         position: relative;
-    }
+    } */
 
     .second_content {
         display: flex;
@@ -1812,10 +1811,10 @@ button:nth-child(1) {
         margin-top: 28px;
     }
 
-    .top_img img {
+    /* .top_img img {
         height: 628px;
         object-fit: cover;
-    }
+    } */
 
     .start_button {
         background: transparent;
@@ -2265,6 +2264,25 @@ button:nth-child(1) {
     }
     .card_slims{
         padding-inline: 56px;
+        padding-bottom: 72px;
     }
-
+    .customer{
+        padding: 72px 56px 0px 56px;
+    }
+    .steps{
+        padding: 96px 56px 96px 56px;
+    }
+    .footer_list_iteams li{
+        padding: 0px 20px 4px 0px;
+        gap: 0px;
+    }
+    .fixed{
+        background: #f7f7f7;
+    }
+    .footer_list_iteams ul{
+        padding: 0px 0px 0px 15px;
+    }
+}
+@media screen and (min-width:1084px) {
+    
 }
