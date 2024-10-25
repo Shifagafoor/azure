@@ -1722,7 +1722,7 @@ button:nth-child(1) {
     .tab_ul {
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 30px;
     }
 
     .tab_ul li {
@@ -2309,7 +2309,7 @@ button:nth-child(1) {
     }
     .tab_head{
         display: flex;
-        padding-inline: 24px;
+        padding-inline: 54.1875px;
         height: 54px;
         gap: 20px;
         justify-content: space-between;
@@ -2324,6 +2324,7 @@ button:nth-child(1) {
         align-items: center;
         gap: 20px;
     }
+    
 
     .tab_ul_one li {
         display: flex;
