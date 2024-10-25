@@ -28,7 +28,9 @@
 :root {
     --border-white: #e6e6e6;
 }
-
+.list_s{
+display: none;
+}
 button {
     background-color: transparent;
     border: none;
@@ -1722,11 +1724,11 @@ button:nth-child(1) {
     .tab_ul {
         display: flex;
         align-items: center;
-        gap: 30px;
+        /* gap: 30px; */
     }
 
     .tab_ul li {
-        display: flex;
+        /* display: flex; */
         list-style-type: none;
         align-items: center;
         gap: 20px;
@@ -2301,6 +2303,25 @@ button:nth-child(1) {
 
 }
 @media screen and (min-width:1084px) {
+/* zai */
+
+   
+    .list_s{
+        display: block;
+        }
+.tab_ul li.list_hide  {
+    display: none;
+}
+
+.tab_ul li{
+    padding: 16px 8px;
+}
+.tab_logo{
+    width: 128px;
+}
+
+
+/*  */
  
     .tab_list_one {
         display: flex;
