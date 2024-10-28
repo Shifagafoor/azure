@@ -1595,6 +1595,9 @@ button:nth-child(1) {
 .fixedBlock{
     display: none;
 }
+.search_fonts{
+    display: none;
+}
 
 @media screen and (min-width:540px) {
     .second_content {
@@ -1662,6 +1665,9 @@ button:nth-child(1) {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+    .search_fonts{
+        display: none;
+    }
 }
 
 @media screen and (min-width:860px) {
@@ -1676,7 +1682,6 @@ button:nth-child(1) {
     .tab_head {
         display: flex;
         padding-inline: 24px;
-        height: 54px;
         gap: 20px;
         justify-content: space-between;
     }
@@ -1816,12 +1821,6 @@ button:nth-child(1) {
     .azure_p {
         margin-top: 28px;
     }
-
-    /* .top_img img {
-        height: 628px;
-        object-fit: cover;
-    } */
-
     .start_button {
         background: transparent;
     }
@@ -2298,6 +2297,9 @@ button:nth-child(1) {
     .tab_ul_one{
         display: none;
     }
+    .search_fonts{
+        display: none;
+    }
 }
 @media screen and (min-width:920px) {
     .ai-list-tags{
@@ -2314,12 +2316,12 @@ button:nth-child(1) {
     .tab_ul_one{
         display: none;
     }
+    .search_fonts{
+        display: none;
+    }
 
 }
-@media screen and (min-width:1084px) {
-/* zai */
-
-   
+@media screen and (min-width:1084px) {   
     .list_s{
         display: block;
         }
@@ -2353,7 +2355,7 @@ button:nth-child(1) {
     .tab_ul_one {
         display: flex;
         align-items: center;
-        gap: 30px;
+        gap: 20px;
     }
     
 
@@ -2438,11 +2440,17 @@ button:nth-child(1) {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
     }
+    .search_fonts{
+        display: none;
+    }
 
 }
 @media screen  and (min-width:1086px) {
     .tab_ul li.list_hide.tab_span_one{
         display: inline;
+    }
+    .search_fonts{
+        display: none;
     }
 
 }
@@ -2450,15 +2458,24 @@ button:nth-child(1) {
     .tab_ul li.list_hide.tab_span_two{
         display: inline;
     }
+    .search_fonts{
+        display: none;
+    }
 }
 @media screen and (min-width:1264px) {
     .tab_ul li.list_hide.tab_span_three{
         display: inline;
     }
+    .search_fonts{
+        display: none;
+    }
 }
 @media screen and (min-width:1354px) {
     .tab_ul li.list_hide.tab_span_four{
         display: inline;
+    }
+    .search_fonts{
+        display: none;
     }
 }
 @media screen and (min-width:1367px) {
@@ -2468,7 +2485,18 @@ button:nth-child(1) {
     .list_s{
         display: none;
     }
+    .search_fonts{
+        display: none;
+    }
 }
 @media screen and (min-width:1400px) {
-    
+    .search_fonts{
+        display: flex;
+        align-items: baseline;
+    }
+    .search_fonts{
+        font-size: 13px;
+        font-weight: 400;
+        font-family: "azure-N";
+    }
 }
