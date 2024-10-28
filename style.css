@@ -133,6 +133,9 @@ header {
 
 .top_img img {
     width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
 }
 .azure_content {
     background: rgb(0, 41, 72);
@@ -167,7 +170,6 @@ header {
 }
 
 .azure_h h1 {
-    height: 80px;
     font-size: 32px;
     font-family: "bold";
     margin-top: 0;
@@ -267,8 +269,8 @@ header {
     box-sizing: border-box;
     color: rgb(0, 66, 117);
     font-size: 14px;
-    font-weight: 600;
     display: block;
+    font-family: "Bold";
     letter-spacing: -0.48px;
     line-height: 20px;
     min-width: max-content;
@@ -279,6 +281,7 @@ header {
     background: url(img/background2.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
     padding: 56px 16px 56px 16px;
 }
 
@@ -843,6 +846,8 @@ button:nth-child(1) {
 
 .it_professional a:nth-child(1) {
     border-bottom: 3px solid rgb(0, 66, 117);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .developers {
@@ -1719,19 +1724,21 @@ button:nth-child(1) {
     .tab_list {
         display: flex;
         align-items: center;
+        gap: 20px;
     }
 
     .tab_ul {
         display: flex;
         align-items: center;
-        /* gap: 30px; */
+        /* gap: 20px; */
     }
 
     .tab_ul li {
         /* display: flex; */
         list-style-type: none;
         align-items: center;
-        gap: 20px;
+        /* gap: 20px; */
+        padding: 16px 16px 16px 12px;
     }
 
     .tab_azure_line {
@@ -1751,14 +1758,13 @@ button:nth-child(1) {
 
     .tab_ul span {
         display: flex;
-        gap: 20px;
-        align-items: flex-start;
+        gap: 10px;
+        align-items: center;
         appearance: button;
-        /* color: rgb(38, 38, 38); */
+        color: rgb(38, 38, 38);
         font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 13px;
         font-weight: 400;
-        margin-right: -10px;
         margin-top: 1px;
         outline-offset: -2px;
     }
@@ -1828,7 +1834,7 @@ button:nth-child(1) {
     }
 
     .ai-chat-banner {
-        padding: 32px 56px;
+        padding: 0px 56px;
     }
 
     .layout-gpt-cols {
@@ -1836,6 +1842,7 @@ button:nth-child(1) {
         flex-wrap: wrap;
         column-gap: 16px;
         row-gap: 8px;
+        justify-content: space-between;
     }
 
     .ai-assistant {
@@ -1851,8 +1858,6 @@ button:nth-child(1) {
         flex-direction: column;
         align-items: flex-start;
         color: rgb(220, 238, 248);
-        column-gap: 5px;
-        row-gap: 5px;
         padding: 12px 12px 12px 0px;
     }
 
@@ -1975,11 +1980,12 @@ button:nth-child(1) {
     }
 
     .featured:nth-child(1) {
-        border-bottom: 3px solid rgb(0, 66, 117);
+        border-bottom: 4px solid rgb(0, 66, 117);
+        padding: 18px;
     }
 
     .chatgpt {
-        display: flex;
+        display: inline;
     }
 
     .azure_content {
@@ -2001,7 +2007,6 @@ button:nth-child(1) {
         flex-direction: column;
         flex: 1 1 auto;
         justify-content: space-between;
-        gap: 20px;
         padding: 24px;
     }
 
@@ -2017,6 +2022,7 @@ button:nth-child(1) {
     .features {
         padding: 0px 56px;
         align-items: center;
+        box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
     }
 
     .featured {
@@ -2293,12 +2299,24 @@ button:nth-child(1) {
         display: flex;
         justify-content: flex-end;
     }
+    .tab_ul_one{
+        display: none;
+    }
 }
 @media screen and (min-width:920px) {
     .ai-list-tags{
         display: flex;
         flex-direction: row;
         gap: 20px;
+    }
+    .kubermetes {
+        background: url(img/card4.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;       
+    }
+    .tab_ul_one{
+        display: none;
     }
 
 }
@@ -2309,20 +2327,16 @@ button:nth-child(1) {
     .list_s{
         display: block;
         }
-.tab_ul li.list_hide  {
-    display: none;
-}
-
-.tab_ul li{
-    padding: 16px 8px;
-}
-.tab_logo{
-    width: 128px;
-}
-
-
-/*  */
- 
+    .tab_ul li.list_hide  {
+        display: none;
+    }
+  
+    .tab_ul li{
+        padding: 16px 8px;
+    }
+    .tab_logo{
+        width: 128px;
+    } 
     .tab_list_one {
         display: flex;
         align-items: center;
@@ -2358,7 +2372,6 @@ button:nth-child(1) {
         gap: 20px;
         align-items: flex-start;
         appearance: button;
-        /* color: rgb(38, 38, 38); */
         font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 13px;
         font-weight: 400;
@@ -2368,7 +2381,7 @@ button:nth-child(1) {
     }
     .start_azure_one {
         display: flex;
-        padding: 12px;
+        padding: 4px 8px 10px 8px;
         border-width: 2px;
         background: #0078d4;
         font-size: 15px;
@@ -2386,7 +2399,6 @@ button:nth-child(1) {
         border: 1px solid;
         border-radius: 3px;
         border-color: #000000;
-        height: 31px;
         margin: 1px 8px;
         margin-top: 11px;
         padding-top: 4px;
@@ -2395,6 +2407,25 @@ button:nth-child(1) {
         font-size: 13px;
         letter-spacing: normal;
         padding: 4px 8px 10px;
+    }
+    .button_left_arrows{
+        display: none;
+    }
+    .top_img img {
+        display: flex;
+        height: 628px;
+    }
+    .whole {
+        background: url(img/background5.webp);
+        background-size: cover;
+        padding-inline: 16px;
+        background-position: center;
+    }
+
+}
+@media screen  and (min-width:1090px) {
+    .tab_ul li.list_hide.tab_span_one{
+        display: inline;
     }
 
 }
