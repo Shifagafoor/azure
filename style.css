@@ -863,14 +863,13 @@ button:nth-child(1) {
 }
 
 .developers a {
-    /* width: 220px; */
     height: 24px;
     box-shadow: inset 1px 2px 0.125rem rgba(0, 0, 0, 0.12), 0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
     text-decoration: none;
     border-radius: 2px;
     color: #000;
     font-family: "Bold";
-    min-width: 220px;
+    min-width: 171px;
     padding: 12px 16px 16px 16px;
     padding-right: 20px;
 
@@ -2081,8 +2080,7 @@ button:nth-child(1) {
 
     .microsoft_leader {
         flex-basis: 50%;
-        row-gap: 96px;
-        column-gap: 96px;
+       justify-content: space-between;
     }
 
     .gartner_img {
@@ -2344,8 +2342,8 @@ button:nth-child(1) {
         display: flex;
         padding-inline: 54.1875px;
         height: 54px;
-        gap: 20px;
-        justify-content: space-between;
+        /* gap: 20px;
+        justify-content: space-between; */
     }
     .tab_list_one {
         display: flex;
@@ -2462,6 +2460,9 @@ button:nth-child(1) {
         display: none;
     }
 }
+@media screen and (min-width:1200px) {
+    
+}
 @media screen and (min-width:1264px) {
     .tab_ul li.list_hide.tab_span_three{
         display: inline;
@@ -2498,5 +2499,41 @@ button:nth-child(1) {
         font-size: 13px;
         font-weight: 400;
         font-family: "azure-N";
+    }
+}
+@media screen and (min-width:1440px) {
+    .whole_kubermetes{
+        display: flex;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+        box-sizing: border-box;
+        gap: 15px;
+    }
+    .kubermetes{
+        margin-top: unset;
+    }
+    .studio{
+        padding: 24px;
+        justify-content: space-between;
+        width: 265px;
+    }
+    .explore_product{
+        width: 130px;
+    }
+    .microsoft_h h3{
+        font-size: 32px;
+    }
+    .microsoft_leader{
+        padding: 24px 72px 24px 24px;
+        flex-basis: 40% ;
+    }
+    .developers a {
+        padding: 16px 24px 24px 24px;
+    }
+}
+@media screen and (min-width:2490px) {
+    .tab_head{
+        display: flex;
+        padding-inline: 124.500px;
     }
 }
