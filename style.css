@@ -206,7 +206,7 @@ header {
     background: rgb(179, 218, 240);
     font-size: 15px;
     color: rgb(14, 23, 38);
-    margin-top: 24px;
+    /* margin-top: 24px; */
     border-radius: 10px;
     justify-content: center;
 }
@@ -235,9 +235,10 @@ header {
     border: 2px solid rgb(179, 218, 240);
     font-size: 15px;
     color: rgb(244, 250, 253);
-    margin-top: 24px;
+    /* margin-top: 24px; */
     border-radius: 10px;
     justify-content: center;
+    margin-bottom: 32px;
 }
 
 .start_button span {
@@ -1597,6 +1598,9 @@ button:nth-child(1) {
 .search_fonts{
     display: none;
 }
+.storie{
+    display: none;
+}
 
 @media screen and (min-width:540px) {
     .second_content {
@@ -1614,8 +1618,16 @@ button:nth-child(1) {
         gap: 10px;
     }
 
+    .start_button{
+        margin-top: 24px;
+    }
+
     .discover {
         padding-inline: 64px;
+    }
+
+    .start{
+        margin-top: 24px;
     }
 
     .solutions {
@@ -2056,6 +2068,9 @@ button:nth-child(1) {
         justify-content: center;
         margin: 0px 0px 0px 32px;
     }
+    .start{
+        margin-top: 24px;
+    }
 
     .start_azure span {
         /* width: 108px; */
@@ -2385,6 +2400,9 @@ button:nth-child(1) {
         border-radius: 3px;
         justify-content: center;
         margin: 11px 8px 1px 11px;
+    }
+    .start{
+        margin-top: 24px;
     }
 
     .start_azure_one span {
